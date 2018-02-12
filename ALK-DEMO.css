@@ -29,7 +29,7 @@ Derudover skal der laves:
     }
 
     .ui-content {
-        /* Billedebaggrund */
+        /* Billedebaggrund på mobile enheder */
         background-image: url(http://www.trippus.se/eventus/userfiles/93777.PNG) !important;
         background-size: cover;
     background-repeat: no-repeat;
@@ -38,6 +38,11 @@ Derudover skal der laves:
     
 </style>
 
+/*
+YtUrl: Sidste del af youtube url
+YtStart: Start sekund 
+YtEnd: Slut sekund
+*/
 <script>    
   var YtUrl = "RVqyHmmtPfc";
   var YtStart = 00;
@@ -56,16 +61,16 @@ Derudover skal der laves:
 <style>
 
 :root {
-    --antal-bg-color: #193A69 ;
+    --slider-bg-color: #193A69 ;
     --opsummering-bg-color: #314C71 ;
-    --grundata-skygge-color: #103160;
+    --grunddata-confirmation-shadow-color: #103160;
 
 }
 
 /*
-    var(--antal-bg-color)
+    var(--slider-bg-color)
     var(--opsummering-bg-color)
-    var(--grundata-skygge-color)
+    var(--grunddata-confirmation-shadow-color)
 */
 
 body * {
@@ -77,6 +82,7 @@ body {
 }
     
 .TextBoxName {
+
 }
     
 .DivStepsH {
@@ -92,7 +98,7 @@ body {
 .divInnerOn {
     background-image: none;
     border-radius: 0px;
-    border: 1px solid var(--antal-bg-color);
+    border: 1px solid var(--slider-bg-color);
     padding: 7px;
 }
 
@@ -106,13 +112,13 @@ body {
 .NrCompanionsMini {
     background-image: none;
     border-radius: 0px;
-    border: 1px solid var(--antal-bg-color);
+    border: 1px solid var(--slider-bg-color);
 }
 
 .DivBookerHeader {
     background-image: none;
     border-radius: 0px;
-    border: 1px solid var(--antal-bg-color);
+    border: 1px solid var(--slider-bg-color);
 }
 
 .InfoBoxVisible {
@@ -124,33 +130,34 @@ body {
 
 .SuccessHeader {
     font-size: 1.8em;
-    color: var(--antal-bg-color);
+    color: var(--slider-bg-color);
     letter-spacing: -1px;
     line-height: 75px;
     height: 75px;
 }
 
 .SuccessMail {
-    color: var(--antal-bg-color);
+    color: var(--slider-bg-color);
     margin-left: 10px;
     font-weight: bold;
     text-align: center;
 }
 
 .ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
-    background:var(--antal-bg-color) /*{a-bar-background-color}*/;
-    border-color: var(--antal-bg-color)/*{a-bar-border}*/;
+    background: var(--slider-bg-color) /*{a-bar-background-color}*/;
+    border-color: var(--slider-bg-color)/*{a-bar-border}*/;
     color: #ffffff /*{a-bar-color}*/;
     text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #eee /*{a-bar-shadow-color}*/;
     font-weight: bold;
 }
     
 a#button-summary, a#button-book {
-    background:  var(--opsummering-bg-color);
-    border-color:  var(--opsummering-bg-color);
+    background: var(--opsummering-bg-color);
+    border-color: var(--opsummering-bg-color);
     color: #fff;
     text-shadow: none;
 }
+
 span {
     text-shadow: none;
 }
@@ -163,8 +170,8 @@ span {
 }
     
 div#summary-panel, a#confirmation, a#calendarEntry {
-    background:var(--antal-bg-color);
-    border-color:var(--antal-bg-color);
+    background: var(--slider-bg-color);
+    border-color: var(--slider-bg-color);
     color: #ffffff;
     text-shadow: none;
 }
@@ -177,13 +184,13 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
     
 .ui-body-b, .ui-page-theme-b .ui-body-inherit, html .ui-bar-b .ui-body-inherit, html .ui-body-b .ui-body-inherit, html body .ui-group-theme-b .ui-body-inherit, html .ui-panel-page-container-b {
-    background:var(--grundata-skygge-color) /*{b-body-background-color}*/;
-    border-color:var(--grundata-skygge-color) /*{b-body-border}*/; 
+    background: var(--grunddata-confirmation-shadow-color) /*{b-body-background-color}*/;
+    border-color: var(--grunddata-confirmation-shadow-color) /*{b-body-border}*/; 
 }
  
 .summary-general-information-contents.ui-corner-all {
     /* #981620 */
-    background:var(--opsummering-bg-color);
+    background: var(--opsummering-bg-color);
     color: #fff;
     text-shadow: none;   
 }
