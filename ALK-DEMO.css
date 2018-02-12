@@ -7,14 +7,15 @@ Derudover skal der laves:
 
     Finde Video på youtube, gem link og start/slut tid (Skal bruges for neden)
 
+    Finde billede til visning på mobile enheder
+
     Layout (Trippus) 
         Baggrund: #ffffff
         Farve indenfor ramme: #ffffff
         Ramme: trans
 */
 
-
-/* EGEN HTML <HEAD> BLOK FOR TILMELDINGSVINDUE
+                                        /* EGEN HTML <HEAD> BLOK FOR TILMELDINGSVINDUE */
 
 <style>
 /* FJERN PRIS BOKS - RESPONSOV formular */
@@ -26,15 +27,16 @@ Derudover skal der laves:
     #tv {
         display:none;
     }
+
     .ui-content {
         /* Billedebaggrund */
-        background-image: url(http://www.trippus.se/eventus/userfiles/89873.jpeg) !important;
+        background-image: url(http://www.trippus.se/eventus/userfiles/93777.PNG) !important;
         background-size: cover;
     background-repeat: no-repeat;
     background-position: 40%;
     }
+    
 </style>
-
 
 <script>    
   var YtUrl = "RVqyHmmtPfc";
@@ -45,7 +47,8 @@ Derudover skal der laves:
 <script src="https://www.trippus.se/support-layout/Rikard/Scripts/Videobakgrund.js"></script>
  <link rel="stylesheet" type="text/css" href="https://www.trippus.se/support-layout/Rikard/Scripts/Videobakgrund.css">
 
-/* EGEN HTML FOR TILMELDINGSVINDUE */
+                                        /* EGEN HTML FOR TILMELDINGSVINDUE */
+
  <div class="tv">
 		  <div class="screen mute" id="tv"></div>
 </div>
@@ -76,48 +79,48 @@ body {
 .TextBoxName {
 }
     
-    .DivStepsH {
-        background: none; 
-        border-bottom: 0px;
-    }
+.DivStepsH {
+    background: none; 
+    border-bottom: 0px;
+}
     
-    .DivStepText {
-        color: #000000;
-        font-size: 1.2em;
-    }
+.DivStepText {
+    color: #000000;
+    font-size: 1.2em;
+}
 
-    .divInnerOn {
-        background-image: none;
-        border-radius: 0px;
-        border: 1px solid var(--antal-bg-color);
-        padding: 7px;
-    }
+.divInnerOn {
+    background-image: none;
+    border-radius: 0px;
+    border: 1px solid var(--antal-bg-color);
+    padding: 7px;
+}
 
-    .divInnerOff {
-        background-image: none;
-        border-radius: 0px;
-        border: 1px solid #fff;
-        padding: 7px;
-    }
+.divInnerOff {
+    background-image: none;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    padding: 7px;
+}
 
-    .NrCompanionsMini {
-        background-image: none;
-        border-radius: 0px;
-        border: 1px solid var(--antal-bg-color);
-    }
+.NrCompanionsMini {
+    background-image: none;
+    border-radius: 0px;
+    border: 1px solid var(--antal-bg-color);
+}
 
-    .DivBookerHeader {
-        background-image: none;
-        border-radius: 0px;
-        border: 1px solid var(--antal-bg-color);
-    }
+.DivBookerHeader {
+    background-image: none;
+    border-radius: 0px;
+    border: 1px solid var(--antal-bg-color);
+}
 
-    .InfoBoxVisible {
-        border: 1px solid #ffffff;
-        background-color: #ffffff;
-        border-radius: 0px;
-        padding: 7px;
-    }
+.InfoBoxVisible {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 0px;
+    padding: 7px;
+}
 
 .SuccessHeader {
     font-size: 1.8em;
@@ -134,7 +137,7 @@ body {
     text-align: center;
 }
 
-       .ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
     background:var(--antal-bg-color) /*{a-bar-background-color}*/;
     border-color: var(--antal-bg-color)/*{a-bar-border}*/;
     color: #ffffff /*{a-bar-color}*/;
@@ -142,70 +145,73 @@ body {
     font-weight: bold;
 }
     
-    a#button-summary, a#button-book {
-        background:  var(--opsummering-bg-color);
-            border-color:  var(--opsummering-bg-color);
-        color: #fff;
-                text-shadow: none;
-    }
-    span {
-        text-shadow: none;
-    }
-    #button-next, #button-previous {
-        background: var(--opsummering-bg-color);
-        border-color: var(--opsummering-bg-color);
-        color: #fff;
-        text-shadow: none;
-    }
-    
-    div#summary-panel, a#confirmation, a#calendarEntry {
-    background:var(--antal-bg-color);
-    border-color:var(--antal-bg-color);
-        color: #ffffff;
-        text-shadow: none;
+a#button-summary, a#button-book {
+    background:  var(--opsummering-bg-color);
+    border-color:  var(--opsummering-bg-color);
+    color: #fff;
+    text-shadow: none;
+}
+span {
+    text-shadow: none;
+}
+
+#button-next, #button-previous {
+    background: var(--opsummering-bg-color);
+    border-color: var(--opsummering-bg-color);
+    color: #fff;
+    text-shadow: none;
 }
     
-    .ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn {
-    /* border-top-width: 1px; */
+div#summary-panel, a#confirmation, a#calendarEntry {
+    background:var(--antal-bg-color);
+    border-color:var(--antal-bg-color);
+    color: #ffffff;
+    text-shadow: none;
+}
+    
+.ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn {
+/* border-top-width: 1px; */
     background: var(--opsummering-bg-color);
     border-color: var(--opsummering-bg-color);
     text-shadow: none;
 }
     
-    .ui-body-b, .ui-page-theme-b .ui-body-inherit, html .ui-bar-b .ui-body-inherit, html .ui-body-b .ui-body-inherit, html body .ui-group-theme-b .ui-body-inherit, html .ui-panel-page-container-b {
+.ui-body-b, .ui-page-theme-b .ui-body-inherit, html .ui-bar-b .ui-body-inherit, html .ui-body-b .ui-body-inherit, html body .ui-group-theme-b .ui-body-inherit, html .ui-panel-page-container-b {
     background:var(--grundata-skygge-color) /*{b-body-background-color}*/;
-        border-color:var(--grundata-skygge-color) /*{b-body-border}*/; }
+    border-color:var(--grundata-skygge-color) /*{b-body-border}*/; 
+}
  
-    .summary-general-information-contents.ui-corner-all {
-        /* #981620 */
+.summary-general-information-contents.ui-corner-all {
+    /* #981620 */
     background:var(--opsummering-bg-color);
     color: #fff;
     text-shadow: none;   
-     }
-    .ui-page-theme-a a:hover{
-     	color: var(--opsummering-bg-color);
-        }
+}
+
+.ui-page-theme-a a:hover{
+ 	color: var(--opsummering-bg-color);
+}
     
-    .ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
-        opacity: 0.7;
-    }
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+    opacity: 0.7;
+}
     
-    .img{
-        opacity: 0.5;
-    }
+.img{
+    opacity: 0.5;
+}
     
-    .strong{
-        font-size: 30px !important;
-    	color: white !important;
-    }
+.strong{
+    font-size: 30px !important;
+	color: white !important;
+}
     
-    .notsostrong{
-        font-size: 20px !important;
-    	color: white !important;
-    }
+.notsostrong{
+    font-size: 20px !important;
+	color: white !important;
+}
     
-    .registration-step-header{
-        color: white !important;
-    }
+.registration-step-header{
+    color: white !important;
+}
     
 </style>
