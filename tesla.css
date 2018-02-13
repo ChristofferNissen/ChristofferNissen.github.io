@@ -94,7 +94,7 @@ span {
 .ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
     background: var(--slider-bg-color) /*{a-bar-background-color}*/;
     border-color: var(--slider-bg-color)/*{a-bar-border}*/;
-    color: #ffffff /*{a-bar-color}*/;
+    color: #ffffff /* "Hvor mange skal tilmeldes"-tekst */;
     text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #eee /*{a-bar-shadow-color}*/;
     font-weight: bold;
 }
@@ -102,14 +102,13 @@ span {
 a#button-summary, a#button-book, #button-next, #button-previous {
     background: var(--opsummering-bg-color);
     border-color: var(--opsummering-bg-color);
-    color: #fff;
-    text-shadow: none;
+    color: black; /* "Opsummering-knap-tekst" */
 }
 
 div#summary-panel, a#confirmation, a#calendarEntry {
     background: var(--slider-bg-color);
     border-color: var(--slider-bg-color);
-    color: black;
+    color: #ffffff; /* "Opsummering" */
     text-shadow: none;
 }
     
@@ -117,7 +116,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     /* border-top-width: 1px; */
     background: var(--opsummering-bg-color);
     border-color: var(--opsummering-bg-color);
-    text-shadow: none;
+    color:black; /* Grunddata-summary tekst */
 }
     
 .ui-body-b, .ui-page-theme-b .ui-body-inherit, html .ui-bar-b .ui-body-inherit, html .ui-body-b .ui-body-inherit, html body .ui-group-theme-b .ui-body-inherit, html .ui-panel-page-container-b {
@@ -138,6 +137,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 .person, .registration-step-description, #number-of-persons-slider-container, .activity, .activity-super-group, .accommodation {
     margin-bottom: 1em;
     opacity: 0.85;
+    /* color:;   Description-tekst */ 
 }
     
 .img{
@@ -155,5 +155,5 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
     
 .registration-step-header{
-    color: white !important;
+    color: white !important; /* Grunddata-tekst */
 }
