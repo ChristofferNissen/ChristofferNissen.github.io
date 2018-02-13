@@ -33,7 +33,7 @@ function vidRescale(){
 
   if (w/h > 16/9){
     tv.setSize(w, w/16*9);
-    //$('.tv .screen').css({'left': '0px'});
+    $('.tv .screen').css({'left': '0px'});
   } else {
     tv.setSize(h/9*16, h);
     $('.tv .screen').css({'left': -($('.tv .screen').outerWidth() - w)/2});
