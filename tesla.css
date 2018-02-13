@@ -109,7 +109,7 @@ a#button-summary, a#button-book, #button-next, #button-previous {
 div#summary-panel, a#confirmation, a#calendarEntry {
     background: var(--slider-bg-color);
     border-color: var(--slider-bg-color);
-    color: #ffffff;
+    color: black;
     text-shadow: none;
 }
     
