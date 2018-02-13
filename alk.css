@@ -1,0 +1,162 @@
+:root {
+    --slider-bg-color: #193A69 ;
+    --opsummering-bg-color: #314C71 ;
+    --grunddata-confirmation-shadow-color: #103160;
+}
+
+/*
+    Indsæt hvor der skal angives farve
+    var(--slider-bg-color)
+    var(--opsummering-bg-color)
+    var(--grunddata-confirmation-shadow-color)
+*/
+
+body * {
+    text-shadow: none !important;
+}
+
+body {
+        color: #000000;
+}
+    
+.TextBoxName {
+
+}
+    
+.DivStepsH {
+    background: none; 
+    border-bottom: 0px;
+}
+    
+.DivStepText {
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.divInnerOn {
+    background-image: none;
+    border-radius: 0px;
+    border: 1px solid var(--slider-bg-color);
+    padding: 7px;
+}
+
+.divInnerOff {
+    background-image: none;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    padding: 7px;
+}
+
+.NrCompanionsMini {
+    background-image: none;
+    border-radius: 0px;
+    border: 1px solid var(--slider-bg-color);
+}
+
+.DivBookerHeader {
+    background-image: none;
+    border-radius: 0px;
+    border: 1px solid var(--slider-bg-color);
+}
+
+.InfoBoxVisible {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 0px;
+    padding: 7px;
+}
+
+.SuccessHeader {
+    font-size: 1.8em;
+    color: var(--slider-bg-color);
+    letter-spacing: -1px;
+    line-height: 75px;
+    height: 75px;
+}
+
+.SuccessMail {
+    color: var(--slider-bg-color);
+    margin-left: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+    background: var(--slider-bg-color) /*{a-bar-background-color}*/;
+    border-color: var(--slider-bg-color)/*{a-bar-border}*/;
+    color: #ffffff /*{a-bar-color}*/;
+    text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #eee /*{a-bar-shadow-color}*/;
+    font-weight: bold;
+}
+    
+a#button-summary, a#button-book {
+    background: var(--opsummering-bg-color);
+    border-color: var(--opsummering-bg-color);
+    color: #fff;
+    text-shadow: none;
+}
+
+span {
+    text-shadow: none;
+}
+
+#button-next, #button-previous {
+    background: var(--opsummering-bg-color);
+    border-color: var(--opsummering-bg-color);
+    color: #fff;
+    text-shadow: none;
+}
+    
+div#summary-panel, a#confirmation, a#calendarEntry {
+    background: var(--slider-bg-color);
+    border-color: var(--slider-bg-color);
+    color: #ffffff;
+    text-shadow: none;
+}
+    
+.ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn {
+/* border-top-width: 1px; */
+    background: var(--opsummering-bg-color);
+    border-color: var(--opsummering-bg-color);
+    text-shadow: none;
+}
+    
+.ui-body-b, .ui-page-theme-b .ui-body-inherit, html .ui-bar-b .ui-body-inherit, html .ui-body-b .ui-body-inherit, html body .ui-group-theme-b .ui-body-inherit, html .ui-panel-page-container-b {
+    background: var(--grunddata-confirmation-shadow-color) /*{b-body-background-color}*/;
+    border-color: var(--grunddata-confirmation-shadow-color) /*{b-body-border}*/; 
+}
+ 
+.summary-general-information-contents.ui-corner-all {
+    /* #981620 */
+    background: var(--opsummering-bg-color);
+    color: #fff;
+    text-shadow: none;   
+}
+
+.ui-page-theme-a a:hover{
+ 	color: var(--opsummering-bg-color);
+}
+
+.person, .registration-step-description, #number-of-persons-slider-container, .activity, .activity-super-group, .accommodation {
+    margin-bottom: 1em;
+    opacity: 0.85;
+}
+    
+.img{
+    opacity: 0.5;
+}
+    
+.strong{
+    font-size: 30px !important;
+	color: white !important;
+}
+    
+.notsostrong{
+    font-size: 20px !important;
+	color: white !important;
+}
+    
+.registration-step-header{
+    color: white !important;
+}
+    
