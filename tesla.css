@@ -1,7 +1,7 @@
 :root {
-    --slider-bg-color: #193A69 ;
-    --opsummering-bg-color: #314C71 ;
-    --grunddata-confirmation-shadow-color: #103160;
+    --slider-bg-color: #f5002f ;
+    --opsummering-bg-color: #c2c2c2 ;
+    --grunddata-confirmation-shadow-color: #525252;
     /*
         Indsæt hvor der skal angives farve
         var(--slider-bg-color)
