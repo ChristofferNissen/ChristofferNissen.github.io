@@ -28,6 +28,7 @@ function onPlayerStateChange(e) {
 }
 
 function vidRescale(){
+  // Extra width and height is added to prevent black bars
   var w = $(window).width() + 200;
   var h = $(window).height() + 112.5;
 
