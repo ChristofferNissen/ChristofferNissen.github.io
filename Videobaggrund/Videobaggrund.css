@@ -9,18 +9,19 @@
     background-color:#000;
 
 }
-.tv  .screen {
+
+.tv .screen {
     position: absolute;
+    margin: auto;
     top: 0;
     left: 0;
-    margin: auto;
     opacity: 0;
     transition: opacity .5s;
     pointer-events: none;
     width: 100vw;
   	height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
 	min-height: 100vh;
-    min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+    min-width: 177.778vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
 
 }
 
