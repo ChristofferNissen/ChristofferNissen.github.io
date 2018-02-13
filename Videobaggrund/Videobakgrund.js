@@ -4,12 +4,11 @@ var firstScriptTag = document.getElementsByTagName('script')[0];
 		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var tv,
 		playerDefaults = {autoplay: 0, autohide: 1, modestbranding: 0, rel: 0, showinfo: 0, controls: 0, disablekb: 1, enablejsapi: 0, iv_load_policy: 3};
-    
-  
+
 var vid = [
 	{'videoId': YtUrl, 'startSeconds':  YtStart, 'endSeconds': YtEnd, 'suggestedQuality': 'hd720'}
 ],
-randomvid = Math.floor(Math.random() * (vid.length - 1 + 1));
+randomvid = Math.floor(Math.random() * (vid.length));
 
 function onYouTubePlayerAPIReady(){
   tv = new YT.Player('tv', {events: {'onReady': onPlayerReady, 'onStateChange': onPlayerStateChange}, playerVars: playerDefaults});
@@ -54,4 +53,3 @@ $('.hi span').on('click', function(){
     tv.unMute();
   }
 });
-
