@@ -28,8 +28,10 @@ function onPlayerStateChange(e) {
 }
 
 function vidRescale(){
-  var w = $(window).width() + 200;
-  var h = $(window).height() + 112.5;
+  //var w = $(window).width() + 200;
+  //var h = $(window).height() + 112.5;
+  var w = $(window).width();
+  var h = $(window).height();
 
   if (w/h > 16/9){
     tv.setSize(w, w/16*9);
@@ -37,6 +39,7 @@ function vidRescale(){
   } else {
     tv.setSize(h/9*16, h);
     // next line handles centering
+    //$('.tv .screen').css({'left': -($('.tv .screen').outerWidth() - (w-200))/2});
     $('.tv .screen').css({'left': -($('.tv .screen').outerWidth() - (w-200))/2});
   }
 }
