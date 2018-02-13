@@ -36,7 +36,7 @@ function vidRescale(){
     $('.tv .screen').css({'left': '0px'});
   } else {
     tv.setSize(h/9*16, h);
-    //$('.tv .screen').css({'left': -($('.tv .screen').outerWidth() - w)/2});
+    $('.tv .screen').css({'left': -($('.tv .screen').outerWidth() - w)/2});
   }
 }
 
