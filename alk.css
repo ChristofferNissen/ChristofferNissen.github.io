@@ -2,28 +2,41 @@
     --slider-bg-color: #193A69 ;
     --opsummering-bg-color: #314C71 ;
     --grunddata-confirmation-shadow-color: #103160;
+    /*
+        Indsæt hvor der skal angives farve
+        var(--slider-bg-color)
+    */
+}
+
+@media screen and (max-width: 736px) {
+    #tv {
+        display:none;
+    }
+    
+    .ui-content {
+        /* Billedebaggrund */
+        background-image: url(http://www.trippus.se/eventus/userfiles/93777.PNG) !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 40%;
+    }
 }
 
 /* FJERN PRIS BOKS - RESPONSOV formular */
-#button-summary {display: none !important;}
-
-/*
-    Indsæt hvor der skal angives farve
-    var(--slider-bg-color)
-    var(--opsummering-bg-color)
-    var(--grunddata-confirmation-shadow-color)
-*/
+#button-summary {
+    display: none !important;
+}
 
 body * {
     text-shadow: none !important;
 }
 
 body {
-        color: #000000;
+    color: #000000;
 }
-    
-.TextBoxName {
 
+span {
+    text-shadow: none;
 }
     
 .DivStepsH {
@@ -50,13 +63,7 @@ body {
     padding: 7px;
 }
 
-.NrCompanionsMini {
-    background-image: none;
-    border-radius: 0px;
-    border: 1px solid var(--slider-bg-color);
-}
-
-.DivBookerHeader {
+.NrCompanionsMini, .DivBookerHeader  {
     background-image: none;
     border-radius: 0px;
     border: 1px solid var(--slider-bg-color);
@@ -92,24 +99,13 @@ body {
     font-weight: bold;
 }
     
-a#button-summary, a#button-book {
+a#button-summary, a#button-book, #button-next, #button-previous {
     background: var(--opsummering-bg-color);
     border-color: var(--opsummering-bg-color);
     color: #fff;
     text-shadow: none;
 }
 
-span {
-    text-shadow: none;
-}
-
-#button-next, #button-previous {
-    background: var(--opsummering-bg-color);
-    border-color: var(--opsummering-bg-color);
-    color: #fff;
-    text-shadow: none;
-}
-    
 div#summary-panel, a#confirmation, a#calendarEntry {
     background: var(--slider-bg-color);
     border-color: var(--slider-bg-color);
@@ -118,7 +114,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
     
 .ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn {
-/* border-top-width: 1px; */
+    /* border-top-width: 1px; */
     background: var(--opsummering-bg-color);
     border-color: var(--opsummering-bg-color);
     text-shadow: none;
@@ -130,7 +126,6 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
  
 .summary-general-information-contents.ui-corner-all {
-    /* #981620 */
     background: var(--opsummering-bg-color);
     color: #fff;
     text-shadow: none;   
@@ -161,17 +156,4 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     
 .registration-step-header{
     color: white !important;
-}
-
-@media screen and (max-width: 736px) {
-    #tv {
-        display:none;
-    }
-    .ui-content {
-        /* Billedebaggrund */
-        background-image: url(http://www.trippus.se/eventus/userfiles/93777.PNG) !important;
-        background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 40%;
-    }
 }
