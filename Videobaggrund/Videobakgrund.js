@@ -8,7 +8,7 @@ var tv,
 var vid = [
 	{'videoId': YtUrl, 'startSeconds':  YtStart, 'endSeconds': YtEnd, 'suggestedQuality': 'hd720'}
 ],
-randomvid = Math.floor(Math.random() * (vid.length));
+randomvid = Math.floor(Math.random() * vid.length);
 
 function onYouTubePlayerAPIReady(){
   tv = new YT.Player('tv', {events: {'onReady': onPlayerReady, 'onStateChange': onPlayerStateChange}, playerVars: playerDefaults});
@@ -28,16 +28,15 @@ function onPlayerStateChange(e) {
 }
 
 function vidRescale(){
-
-  var w = $(window).width()+200,
-    h = $(window).height()+200;
+  var w = $(window).width()+200;
+  var h = $(window).height()+200;
 
   if (w/h > 16/9){
     tv.setSize(w, w/16*9);
-    $('.tv .screen').css({'left': '0px'});
+    //$('.tv .screen').css({'left': '0px'});
   } else {
     tv.setSize(h/9*16, h);
-    $('.tv .screen').css({'left': -($('.tv .screen').outerWidth()-w)/2});
+    //$('.tv .screen').css({'left': -($('.tv .screen').outerWidth() - w)/2});
   }
 }
 
