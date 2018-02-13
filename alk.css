@@ -4,6 +4,9 @@
     --grunddata-confirmation-shadow-color: #103160;
 }
 
+/* FJERN PRIS BOKS - RESPONSOV formular */
+#button-summary {display: none !important;}
+
 /*
     Indsæt hvor der skal angives farve
     var(--slider-bg-color)
@@ -159,4 +162,16 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 .registration-step-header{
     color: white !important;
 }
-    
+
+@media screen and (max-width: 736px) {
+    #tv {
+        display:none;
+    }
+    .ui-content {
+        /* Billedebaggrund */
+        background-image: url(http://www.trippus.se/eventus/userfiles/93777.PNG) !important;
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40%;
+    }
+}
