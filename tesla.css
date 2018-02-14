@@ -1,5 +1,6 @@
 :root {
-    --slider-bg-color: #f5002f ;
+    --sliderbox-bg-color: #f5002f ;
+    --slider-bg-color:white;
     --opsummering-bg-color: #c2c2c2 ;
     --grunddata-confirmation-shadow-color: #525252;
 
@@ -157,7 +158,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 .person{
     margin-bottom: 1em;
     opacity: 0.85;
-    color:var(--Tekst-person);   /* Description-tekst */ 
+    color:var(--Tekst-person);   /* Person-tekst */ 
 }
 
 
@@ -183,4 +184,8 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     
 .registration-step-header{
     color: var(--Tekst-grunddata)!important; /* Grunddata-tekst */
+}
+
+.div.ui-slider-bg.vi-btn-active{
+    background: var(--slider-bg-color);
 }
