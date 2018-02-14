@@ -2,6 +2,17 @@
     --slider-bg-color: #f5002f ;
     --opsummering-bg-color: #c2c2c2 ;
     --grunddata-confirmation-shadow-color: #525252;
+
+    --Tekst-grunddata: white;
+    --Tekst-description: black;
+    --Tekst-slider: white;
+
+    --Tekst-button: white;
+    --Tekst-summary-headings: white;
+    --Tekst-Field-actual-value: black;
+    --Tekst-Summary-Generel-field: white;
+
+
     /*
         Indsæt hvor der skal angives farve
         var(--slider-bg-color)
@@ -94,7 +105,7 @@ span {
 .ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
     background: var(--slider-bg-color) /*{a-bar-background-color}*/;
     border-color: var(--slider-bg-color)/*{a-bar-border}*/;
-    color: #ffffff /* "Hvor mange skal tilmeldes"-tekst */;
+    color: var(--Tekst-slider) /* slider-tekst */;
     text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #eee /*{a-bar-shadow-color}*/;
     font-weight: bold;
 }
@@ -102,13 +113,13 @@ span {
 a#button-summary, a#button-book, #button-next, #button-previous {
     background: var(--opsummering-bg-color);
     border-color: var(--opsummering-bg-color);
-    color: black; /* "Opsummering-knap-tekst" */
+    color:var(--Tekst-button); /* "knap-tekst" */
 }
 
 div#summary-panel, a#confirmation, a#calendarEntry {
     background: var(--slider-bg-color);
     border-color: var(--slider-bg-color);
-    color: #ffffff; /* "Opsummering" */
+    color: var(--Tekst-summary-headings); /* "Summary-heading-tekst" */
     text-shadow: none;
 }
     
@@ -116,9 +127,17 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     /* border-top-width: 1px; */
     background: var(--opsummering-bg-color);
     border-color: var(--opsummering-bg-color);
-    color:black; /* Grunddata-summary tekst */
+    color:var(--Tekst-summary-headings); /* Grunddata-summary tekst */
 }
-    
+.summary-general-information-value {
+    color:var(--Tekst-Field-actual-value); /* Summary-field-aktual-values-tekst */
+}
+
+.summary-general-information-name {
+    font-weight: bold;
+    color:var(--Tekst-Summary-Generel-field); /* Summary-field-general-tekst */
+}
+
 .ui-body-b, .ui-page-theme-b .ui-body-inherit, html .ui-bar-b .ui-body-inherit, html .ui-body-b .ui-body-inherit, html body .ui-group-theme-b .ui-body-inherit, html .ui-panel-page-container-b {
     background: var(--grunddata-confirmation-shadow-color) /*{b-body-background-color}*/;
     border-color: var(--grunddata-confirmation-shadow-color) /*{b-body-border}*/; 
@@ -137,7 +156,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 .person, .registration-step-description, #number-of-persons-slider-container, .activity, .activity-super-group, .accommodation {
     margin-bottom: 1em;
     opacity: 0.85;
-    /* color:;   Description-tekst */ 
+    color:var(--Tekst-description);   /* Description-tekst */ 
 }
     
 .img{
@@ -155,5 +174,5 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
     
 .registration-step-header{
-    color: white !important; /* Grunddata-tekst */
+    color: var(--Tekst-grunddata)!important; /* Grunddata-tekst */
 }
