@@ -181,6 +181,6 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     color: var(--Tekst-grunddata)!important; /* Grunddata-tekst */
 }
 
-.div.ui-slider-bg.ui-btn-active{
+div.ui-slider-bg.ui-btn-active{
     background: var(--slider-bg-color);
 }
