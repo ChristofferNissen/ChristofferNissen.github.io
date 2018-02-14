@@ -26,7 +26,7 @@ function onPlayerStateChange(e) {
     tv.seekTo(vid[randomvid].startSeconds)
   }
 }
-
+/*
 function vidRescale(){
   // Extra width and height is added to prevent black bars
   var w = $(window).width() + 200;
@@ -41,8 +41,8 @@ function vidRescale(){
     $('.tv .screen').css({'left': -($('.tv .screen').outerWidth() - (w-200))/2});
   }
 }
+*/
 
-/*
 function vidRescale(){
   // Extra width and height is added to prevent black bars
   var w = $(window).width();
@@ -57,7 +57,7 @@ function vidRescale(){
     $('.tv .screen').css({'left': -($('.tv .screen').outerWidth() - w)/2});
   }
 }
-*/
+
 
 $(window).on('load resize', function(){
   vidRescale();
