@@ -28,7 +28,7 @@ function onPlayerStateChange(e) {
 }
 
 function vidRescale(){
-  // Extra width and height is added to prevent black bars
+  // Extra width and height is added to make reseizing the browser faster 
   var w = $(window).width() + 200;
   var h = $(window).height() + 112.5;
 
@@ -42,21 +42,7 @@ function vidRescale(){
   }
 }
 
-/*
-function vidRescale(){
-  var w = $(window).width();
-  var h = $(window).height();
 
-  if (w/h > 16/9){
-    tv.setSize(w, w/16*9);
-    $('.tv .screen').css({'left': '0px'});
-  } else {
-    tv.setSize(h/9*16, h);
-    // next line handles centering, when height is larger than width
-    $('.tv .screen').css({'left': -($('.tv .screen').outerWidth() - w)/2});
-  }
-}
-*/
 
 $(window).on('load resize', function(){
   vidRescale();
