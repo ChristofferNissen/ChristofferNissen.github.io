@@ -5,6 +5,7 @@
 
     --Tekst-grunddata: white;
     --Tekst-description: black;
+    --Tekst-person: black;
     --Tekst-slider: white;
 
     --Tekst-button: white;
@@ -153,7 +154,14 @@ div#summary-panel, a#confirmation, a#calendarEntry {
  	color: var(--opsummering-bg-color);
 }
 
-.person, .registration-step-description, #number-of-persons-slider-container, .activity, .activity-super-group, .accommodation {
+.person{
+    margin-bottom: 1em;
+    opacity: 0.85;
+    color:var(--Tekst-person);   /* Description-tekst */ 
+}
+
+
+.registration-step-description, #number-of-persons-slider-container, .activity, .activity-super-group, .accommodation {
     margin-bottom: 1em;
     opacity: 0.85;
     color:var(--Tekst-description);   /* Description-tekst */ 
