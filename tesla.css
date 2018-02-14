@@ -143,7 +143,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 .summary-general-information-contents.ui-corner-all {
     background: var(--opsummering-bg-color);
     color: #fff;
-    text-shadow: none;   
+    opacity: 0.9; /* Set to 0.9 to add a darker color to the dropdown box */ 
 }
 
 .ui-page-theme-a a:hover{
