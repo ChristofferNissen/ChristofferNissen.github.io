@@ -1,19 +1,19 @@
 :root {
+    /* Main layout farver, sliderbox-bg-color sætter også farven for bælken i bunden, og opsummerings-bjælken */
     --sliderbox-bg-color: #f5002f ;
     --slider-bg-color:white;
     --opsummering-bg-color: #c2c2c2 ;
     --grunddata-confirmation-shadow-color: #525252;
-
+    
+    /* Tekst farver i kronologisk rækkefælge, efter flowet igennem registreringen */
     --Tekst-grunddata: white;
     --Tekst-description: black;
-    --Tekst-person: black;
     --Tekst-slider: white;
-
+    --Tekst-person: black;
     --Tekst-button: white;
     --Tekst-summary-headings: white;
-    --Tekst-Field-actual-value: black;
     --Tekst-Summary-Generel-field: white;
-
+    --Tekst-Field-actual-value: black;
 }
 
 @media screen and (max-width: 736px) {
@@ -106,7 +106,8 @@ span {
     text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #eee /*{a-bar-shadow-color}*/;
     font-weight: bold;
 }
-    
+
+/* Sætter både farven for "Opsummering" og "Bekræft" knapperne */
 a#button-summary, a#button-book, #button-next, #button-previous {
     background: var(--opsummering-bg-color);
     border-color: var(--opsummering-bg-color);
@@ -121,7 +122,6 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
     
 .ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn {
-    /* border-top-width: 1px; */
     background: var(--opsummering-bg-color);
     border-color: var(--opsummering-bg-color);
     color:var(--Tekst-summary-headings); /* Grunddata-summary tekst */
@@ -147,7 +147,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
 
 .ui-page-theme-a a:hover{
- 	color: var(--opsummering-bg-color);
+ 	color: var(--opsummering-bg-color); /* Skal hover måske være en anden farve? */
 }
 
 .person{
@@ -155,7 +155,6 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     opacity: 0.85;
     color:var(--Tekst-person);   /* Person-tekst */ 
 }
-
 
 .registration-step-description, #number-of-persons-slider-container, .activity, .activity-super-group, .accommodation {
     margin-bottom: 1em;
@@ -181,13 +180,9 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     color: var(--Tekst-grunddata)!important; /* Grunddata-tekst */
 }
 
-div.ui-slider-bg.ui-btn-active{
-    background: var(--slider-bg-color);
-}
-
 .ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active, html .ui-body-a .ui-btn.ui-btn-active, html body .ui-group-theme-a .ui-btn.ui-btn-active, html head + body .ui-btn.ui-btn-a.ui-btn-active, .ui-page-theme-a .ui-checkbox-on:after, html .ui-bar-a .ui-checkbox-on:after, html .ui-body-a .ui-checkbox-on:after, html body .ui-group-theme-a .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-a:after, .ui-page-theme-a .ui-flipswitch-active, html .ui-bar-a .ui-flipswitch-active, html .ui-body-a .ui-flipswitch-active, html body .ui-group-theme-a .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, .ui-page-theme-a .ui-slider-track .ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-group-theme-a .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active {
-    background-color: white /*{a-active-background-color}*/;
-    border-color: white /*{a-active-border}*/;
-    color: #fff /*{a-active-color}*/;
+    background-color: var(--slider-bg-color) /*{a-active-background-color}*/;
+    border-color: var(--slider-bg-color) /*{a-active-border}*/;
+    color: var(--slider-bg-color) /*{a-active-color}*/;
     text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/ #005599 /*{a-active-shadow-color}*/;
 }
