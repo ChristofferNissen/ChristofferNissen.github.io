@@ -14,11 +14,6 @@
     --Tekst-Field-actual-value: black;
     --Tekst-Summary-Generel-field: white;
 
-
-    /*
-        Indsæt hvor der skal angives farve
-        var(--slider-bg-color)
-    */
 }
 
 @media screen and (max-width: 736px) {
@@ -65,7 +60,7 @@ span {
 .divInnerOn {
     background-image: none;
     border-radius: 0px;
-    border: 1px solid var(--slider-bg-color);
+    border: 1px solid var(--sliderbox-bg-color);
     padding: 7px;
 }
 
@@ -79,7 +74,7 @@ span {
 .NrCompanionsMini, .DivBookerHeader  {
     background-image: none;
     border-radius: 0px;
-    border: 1px solid var(--slider-bg-color);
+    border: 1px solid var(--sliderbox-bg-color);
 }
 
 .InfoBoxVisible {
@@ -91,22 +86,22 @@ span {
 
 .SuccessHeader {
     font-size: 1.8em;
-    color: var(--slider-bg-color);
+    color: var(--sliderbox-bg-color);
     letter-spacing: -1px;
     line-height: 75px;
     height: 75px;
 }
 
 .SuccessMail {
-    color: var(--slider-bg-color);
+    color: var(--sliderbox-bg-color);
     margin-left: 10px;
     font-weight: bold;
     text-align: center;
 }
 
 .ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
-    background: var(--slider-bg-color) /*{a-bar-background-color}*/;
-    border-color: var(--slider-bg-color)/*{a-bar-border}*/;
+    background: var(--sliderbox-bg-color) /*{a-bar-background-color}*/;
+    border-color: var(--sliderbox-bg-color)/*{a-bar-border}*/;
     color: var(--Tekst-slider) /* slider-tekst */;
     text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #eee /*{a-bar-shadow-color}*/;
     font-weight: bold;
@@ -119,8 +114,8 @@ a#button-summary, a#button-book, #button-next, #button-previous {
 }
 
 div#summary-panel, a#confirmation, a#calendarEntry {
-    background: var(--slider-bg-color);
-    border-color: var(--slider-bg-color);
+    background: var(--sliderbox-bg-color);
+    border-color: var(--sliderbox-bg-color);
     color: var(--Tekst-summary-headings); /* "Summary-heading-tekst" */
     text-shadow: none;
 }
