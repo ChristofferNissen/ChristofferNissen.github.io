@@ -185,6 +185,12 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     margin-bottom: 1em;
     opacity: 0.85;
     color:var(--Tekst-person);   /* Person-tekst */ 
+    border-radius: var(--Border-raius);
+}
+
+div#footer.ui-footer.ui-footer-fixzed.slideup.ui-bar-inherit{
+    background: transparent;
+    border: transparent;
 }
 
 .registration-step-description, #number-of-persons-slider-container, .activity, .activity-super-group, .accommodation {
