@@ -12,9 +12,15 @@
     --Tekst-person: black;
     --Tekst-button: black;
     --Tekst-summary-headings: white;
+    --Tekst-summary-person: black;
     --Tekst-Summary-Generel-field: Black;
     --Tekst-Field-actual-value: grey;
 }
+
+ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit ui-mini ui-icon-minus, ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit ui-mini ui-icon-minus{
+    color: var(--Tekst-summary-person);
+}
+
 
 @media screen and (max-width: 736px) {
     #tv {
