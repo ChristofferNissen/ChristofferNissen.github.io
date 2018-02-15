@@ -17,11 +17,6 @@
     --Tekst-Field-actual-value: grey;
 }
 
-ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit ui-mini ui-icon-minus, ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-inherit ui-mini ui-icon-minus{
-    color: var(--Tekst-summary-person);
-}
-
-
 @media screen and (max-width: 736px) {
     #tv {
         display:none;
@@ -130,7 +125,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 .ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn {
     background: var(--opsummering-bg-color);
     border-color: var(--opsummering-bg-color);
-    color:var(--Tekst-summary-headings); /* Grunddata-summary tekst */
+    color:var(--Tekst-summary-person); /* Grunddata-summary tekst */
 }
 .summary-general-information-value {
     color:var(--Tekst-Field-actual-value); /* Summary-field-aktual-values-tekst */
