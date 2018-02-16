@@ -169,3 +169,8 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     color: var(--slider-bg-color) /*{a-active-color}*/;
     text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/var(--sliderbox-bg-color)/*{a-active-shadow-color}*/;
 }
+
+.ui-header-fixed, .ui-footer-fixed{
+    background: var(--header-and-footer-color) !important;
+    border: var(--header-and-footer-color) !important;
+}

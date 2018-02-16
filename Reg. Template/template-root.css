@@ -1,7 +1,9 @@
+/* Import template.css */
 @import url(https://cdn.rawgit.com/ChristofferNissen/ChristofferNissen.github.io/8908f44a/Reg.%20Template/template.css);
 
 :root {
     /* Main layout farver, sliderbox-bg-color sætter også farven for bælken i bunden, og opsummerings-bjælken */
+    --header-and-footer-color: #0A4704;
     --sliderbox-bg-color: #0A4704;
     --slider-bg-color:white;
     --opsummering-bg-color: #ffffff ;
@@ -17,6 +19,9 @@
     --Tekst-summary-person: black;
     --Tekst-Summary-Generel-field: Black;
     --Tekst-Field-actual-value: grey;
+
+    /* Kanter på kasser */
+    --Border-raius: 0px;
 
     /* Billedbaggrund til mobil enhed */
     --Mobile-background: url(https://carlsberggroup.com/media/2067/carlsberg-draught.jpg?width=1390&mode=max);

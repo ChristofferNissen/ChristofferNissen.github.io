@@ -21,6 +21,10 @@
     --Tekst-Field-actual-value: black;
 
     --Border-raius: 0px;
+    
+    /* Billedbaggrund til mobil enhed */
+    --Mobile-background: url(https://www.tesla.com/sites/default/files/images/software_update.jpg);
+
 }
 
 @media screen and (max-width: 736px) {
@@ -30,7 +34,7 @@
     
     .ui-content {
         /* Billedebaggrund */
-        background-image: url(https://www.tesla.com/sites/default/files/images/software_update.jpg) !important;
+        background-image: var(--Mobile-background) !important;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 40%;
