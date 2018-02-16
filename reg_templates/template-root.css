@@ -1,9 +1,9 @@
 /* Import template.css */
-@import url(https://cdn.rawgit.com/ChristofferNissen/ChristofferNissen.github.io/e716a227/reg_templates/MinimalTemplate.css);
+@import url(https://cdn.rawgit.com/ChristofferNissen/ChristofferNissen.github.io/b348a90f/reg_templates/MinimalTemplate.css);
 
 :root {
     /* Main layout farver, sliderbox-bg-color sætter også farven for bælken i bunden, og opsummerings-bjælken */
-    --header-and-footer-color: #0A4704;
+    --header-and-footer-color: transparent;
     --sliderbox-bg-color: #0A4704;
     --slider-bg-color:white;
     --summary-bg-color: #ffffff ;
