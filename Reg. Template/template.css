@@ -1,25 +1,3 @@
-:root {
-    /* Main layout farver, sliderbox-bg-color sætter også farven for bælken i bunden, og opsummerings-bjælken */
-    --sliderbox-bg-color: #0A4704;
-    --slider-bg-color:white;
-    --opsummering-bg-color: #ffffff ;
-    --grunddata-confirmation-shadow-color: #0A4704;
-    
-    /* Tekst farver i kronologisk rækkefælge, efter flowet igennem registreringen */
-    --Tekst-grunddata: white;
-    --Tekst-description: black;
-    --Tekst-slider: white;
-    --Tekst-person: black;
-    --Tekst-button: black;
-    --Tekst-summary-headings: white;
-    --Tekst-summary-person: black;
-    --Tekst-Summary-Generel-field: Black;
-    --Tekst-Field-actual-value: grey;
-
-    /* Billedbaggrund til mobil enhed */
-    --Mobile-background: url(https://carlsberggroup.com/media/2067/carlsberg-draught.jpg?width=1390&mode=max);
-}
-
 @media screen and (max-width: 736px) {
     #tv {
         display:none;
