@@ -1,5 +1,6 @@
 :root {
     /* Main layout farver, sliderbox-bg-color sætter også farven for bælken i bunden, og opsummerings-bjælken */
+    --header-and-footer-color: transparent;
     --sliderbox-bg-color: #f5002f ;
     --slider-bg-color:white;
     --summary-bg-color:#c2c2c2 ;
@@ -7,6 +8,7 @@
     --button-next: #f5002f ;
     --button-book: #c2c2c2;
     --grunddata-confirmation-shadow-color: #525252;
+    
     
     /* Tekst farver i kronologisk rækkefælge, efter flowet igennem registreringen */
     --Tekst-grunddata: white;
@@ -185,8 +187,6 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     background:black; /* Selection */
 }
 
-
-
 .person{
     margin-bottom: 1em;
     opacity: 0.85;
@@ -195,8 +195,8 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
 
 .ui-header-fixed, .ui-footer-fixed{
-    background: transparent !important;
-    border: transparent !important;
+    background: var(--header-and-footer-color) !important;
+    border: var(--header-and-footer-color) !important;
 }
 
 .registration-step-description, #number-of-persons-slider-container, .activity, .activity-super-group, .accommodation {
