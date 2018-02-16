@@ -1,3 +1,4 @@
+Egen HTML <HEAD> blok for Tilmeldingsvindue
 <!-- Scripts -->
 <!-- Variabler til videobaggrund -->
 <script>    
@@ -10,3 +11,8 @@ var YtEnd = 57;
 <!-- Videobaggrund.css --><link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/ChristofferNissen/ChristofferNissen.github.io/e35ccfde/Videobaggrund/Videobaggrund.css">
 <!-- Web-specific-style --><link rel="stylesheet" type="text/css" href="x">
 
+Egen HTML for Tilmeldingsvindue
+<!-- div-container til videobaggrund -->
+<div class="tv">
+		  <div class="screen mute" id="tv"></div>
+</div>
