@@ -3,7 +3,7 @@
 
 :root {
     /* Main layout farver, sliderbox-bg-color sætter også farven for bælken i bunden, og opsummerings-bjælken */
-    --header-and-footer-color: transparent;
+    --header-and-footer-color: transparent; /* Virker kun i minimal template */
     --sliderbox-bg-color: #0A4704;
     --slider-bg-color:white;
     --summary-bg-color: #ffffff ;
