@@ -194,9 +194,9 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     border-radius: var(--Border-raius);
 }
 
-.ui-footer-fixed{
-    background: transparent;
-    border: transparent;
+.ui-header-fixed, .ui-footer-fixed{
+    background: transparent !important;
+    border: transparent !important;
 }
 
 .registration-step-description, #number-of-persons-slider-container, .activity, .activity-super-group, .accommodation {
