@@ -89,11 +89,32 @@ span {
     font-weight: bold;
 }
 
-/* Sætter både farven for "Opsummering" og "Bekræft" knapperne */
-a#button-summary, a#button-book, #button-next, #button-previous {
-    background: var(--opsummering-bg-color);
-    border-color: var(--opsummering-bg-color);
+a#button-summary{
+    background: var(--button-summary);
+    border-color: var(--button-summary);
     color:var(--Tekst-button); /* "knap-tekst" */
+    border-radius: var(--Border-raius);
+}
+
+#button-next{
+    background: var(--button-next);
+    border-color: var(--button-next);
+    color:var(--Tekst-button); /* "knap-tekst" */
+    border-radius: var(--Border-raius);
+}
+
+a#button-book{
+    background: var(--button-book);
+    border-color: var(--button-book);
+    color:var(--Tekst-button); /* "knap-tekst" */
+    border-radius: var(--Border-raius);
+}
+
+#button-previous {
+    background: var(--button-previous);
+    border-color: var(--button-previous);
+    color:var(--Tekst-button); /* "knap-tekst" */
+    border-radius: var(--Border-raius);
 }
 
 div#summary-panel, a#confirmation, a#calendarEntry {
@@ -104,8 +125,8 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
     
 .ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn {
-    background: var(--opsummering-bg-color);
-    border-color: var(--opsummering-bg-color);
+    background: var(--summary-bg-color);
+    border-color: var(--summary-bg-color);
     color:var(--Tekst-summary-person); /* Grunddata-summary tekst */
 }
 .summary-general-information-value {
@@ -123,14 +144,14 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
  
 .summary-general-information-contents.ui-corner-all {
-    background: var(--opsummering-bg-color);
+    background: var(--summary-bg-color);
     color: #fff;
     opacity: 0.9; /* Set to 0.9 to add a darker color to the dropdown box */ 
     border-radius: 0px;
 }
 
 .ui-page-theme-a a:hover{
- 	color: var(--opsummering-bg-color); /* Skal hover måske være en anden farve? */
+ 	color: var(--summary-bg-color); /* Skal hover måske være en anden farve? */
 }
 
 .person{
