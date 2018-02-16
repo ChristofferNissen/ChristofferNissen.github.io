@@ -1,0 +1,12 @@
+<!-- Scripts -->
+<!-- Variabler til videobaggrund -->
+<script>    
+var YtUrl = "w90WKDCxqic";
+var YtStart = 00;
+var YtEnd = 57;
+</script>
+<!-- Videobaggrund.js --><script src="https://cdn.rawgit.com/ChristofferNissen/ChristofferNissen.github.io/e35ccfde/Videobaggrund/Videobaggrund.js"></script>
+<!-- Stylesheets --> 
+<!-- Videobaggrund.css --><link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/ChristofferNissen/ChristofferNissen.github.io/e35ccfde/Videobaggrund/Videobaggrund.css">
+<!-- Web-specific-style --><link rel="stylesheet" type="text/css" href="x">
+
