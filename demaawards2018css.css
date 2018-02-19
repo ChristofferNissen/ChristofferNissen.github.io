@@ -316,6 +316,8 @@ p.naer {
 .third .card {
     background: #fff;
     box-shadow: -1px 14px 50px #5d3e271a;
+    border-radius: 20px;
+    margin: -5%;
 }
 
 .third .col-lg-4 {
