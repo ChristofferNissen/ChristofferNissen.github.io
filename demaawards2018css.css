@@ -396,7 +396,7 @@ p.naer {
 		width: 100% !important;
 		height: auto !important;
         z-index: 0;
-        display:none;
+        /* display:none; */
 	}
 	
 	.train{
@@ -545,8 +545,7 @@ p.naer {
         /* width: 55% !important; */
 		height: auto !important;
         z-index: 0;
-        
-        background: "http://www.trippus.se/eventus/userfiles/94163.png";
+        background: "http://www.trippus.se/eventus/userfiles/94168.png";
         background-size: cover;
 	}
 	.scrollWrapper{
