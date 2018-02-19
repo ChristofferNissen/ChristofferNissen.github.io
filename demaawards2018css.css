@@ -364,8 +364,15 @@ p.naer {
     }
 }
 
+
+
 .second{
     background: url(http://www.trippus.se/eventus/userfiles/94163.png) no-repeat center center;
+    background-size: cover;
+}
+
+.third{
+    background: url(http://www.trippus.se/eventus/userfiles/94164.png) no-repeat center center;
     background-size: cover;
 }
 
