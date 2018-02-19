@@ -395,7 +395,8 @@ p.naer {
 	}
 	
 	.train{
-		top: 245px;
+        top: 245px;
+        display:none;
 	}
 }
 @media screen and (max-width: 1200px){
