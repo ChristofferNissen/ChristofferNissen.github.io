@@ -11,7 +11,7 @@
     --button-previous: #ffffff ;
     --button-next: #ffffff  ;
     --button-book: #ffffff ;
-    --grunddata-confirmation-shadow-color: #0A4704;
+    --grunddata-confirmation-shadow-color: black;
     
     /* Tekst farver i kronologisk rækkefælge, efter flowet igennem registreringen */
     --Tekst-grunddata: white;
