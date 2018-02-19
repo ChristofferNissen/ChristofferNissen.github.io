@@ -235,7 +235,7 @@ img.train {
     position: absolute;
     top: 100vh;
     left: 0;
-    background: url(//www.trippus.se/support-layout/Trippus/awards2018/reg_bakgrund.png) no-repeat center center;
+    background: url(www.trippus.se/support-layout/Trippus/awards2018/reg_bakgrund.png) no-repeat center center;
     background-size: cover;
 	text-align: center;
 	transition: 2s all ease-in-out;
