@@ -364,10 +364,17 @@ p.naer {
     }
 }
 
+.second .fp-tableCell {
+    background: url(http://www.trippus.se/eventus/userfiles/94163.png) no-repeat center center;
+    background-size: cover;
+}
+
 .fourth .fp-tableCell {
     background: url(http://www.trippus.se/eventus/userfiles/94165.png) no-repeat center center;
     background-size: cover;
 }
+
+
 
 @media screen and (max-width: 1600px){
 	.third .col-lg-4{
@@ -520,11 +527,10 @@ p.naer {
 	}
 	
 	.robot{
-        /*
-        width: 55% !important;
+        /* width: 55% !important; */
 		height: auto !important;
         z-index: 0;
-        */
+        
         background: "http://www.trippus.se/eventus/userfiles/94163.png";
         background-size: cover;
 	}
