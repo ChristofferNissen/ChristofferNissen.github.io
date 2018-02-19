@@ -215,7 +215,7 @@ section.reg{
 }
 
 img.robot {
-    width: 50%;
+    width: 40%;
     position: absolute;
     right: -83px;
     bottom: 0;
@@ -542,7 +542,7 @@ p.naer {
 	}
 	
 	.robot{
-        /* width: 55% !important; */
+        width: 55% !important;
 		height: auto !important;
         z-index: 0;
         background: "http://www.trippus.se/eventus/userfiles/94168.png";
