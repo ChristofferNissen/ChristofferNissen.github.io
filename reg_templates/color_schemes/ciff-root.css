@@ -28,5 +28,5 @@
     --Border-raius: 0px;
 
     /* Billedbaggrund til mobil enhed */
-    --Mobile-background: url(https://carlsberggroup.com/media/2067/carlsberg-draught.jpg?width=1390&mode=max);
+    --Mobile-background: white;
 }
