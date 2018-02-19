@@ -215,9 +215,9 @@ section.reg{
 }
 
 img.robot {
-    width: 40%;
+    width: 40% !important;
     position: absolute;
-    right: -83px;
+    /* right: -83px; */
     bottom: 0;
 }
 
