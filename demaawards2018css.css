@@ -222,6 +222,11 @@ img.robot {
     bottom: 0;
 }
 
+img.mpiLogo {
+    height: 100px !important;
+}
+
+
 img.train {
 	position: absolute;
     right: -83px;
