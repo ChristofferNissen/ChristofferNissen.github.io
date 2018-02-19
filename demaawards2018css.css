@@ -424,7 +424,8 @@ p.naer {
 		top: 12%;
 		width: 97% !important;
 		height: auto !important;
-		z-index: 0;
+        z-index: 0;
+        display:none;
 	}
 	
 	.third .col-lg-4{
