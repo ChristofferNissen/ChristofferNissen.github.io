@@ -48,6 +48,7 @@ body {
   overflow: hidden;
   border-radius: 100%;
   margin: 0 auto;
+  display: none;
 }
 
 .scrollArrow{
