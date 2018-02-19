@@ -5,13 +5,13 @@
 :root {
     /* Main layout farver, sliderbox-bg-color sætter også farven for bælken i bunden, og opsummerings-bjælken */
     --header-and-footer-color: transparent; /* Virker kun i minimal template */
-    --sliderbox-bg-color:#c49c66;
-    --slider-bg-color:white;
+    --sliderbox-bg-color:#872c1f;
+    --slider-bg-color:#d24e2b;
     --summary-bg-color: #ffffff ;
     --button-previous: #872c1f;
-    --button-next: #872c1f ;
+    --button-next: #d24e2b ;
     --button-book: #872c1f;
-    --grunddata-confirmation-shadow-color: #c49c66;
+    --grunddata-confirmation-shadow-color: #872c1f;
     
     /* Tekst farver i kronologisk rækkefælge, efter flowet igennem registreringen */
     --Tekst-grunddata: white;
