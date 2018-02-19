@@ -365,6 +365,10 @@ p.naer {
 }
 
 
+.customHeader{
+    background: url(http://www.trippus.se/eventus/userfiles/94162.png) no-repeat center center;
+    background-size: cover;
+}
 
 .second{
     background: url(http://www.trippus.se/eventus/userfiles/94163.png) no-repeat center center;
