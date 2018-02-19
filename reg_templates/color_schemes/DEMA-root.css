@@ -30,3 +30,10 @@
     /* Billedbaggrund til mobil enhed */
     --Mobile-background: white;
 }
+
+div#summary-panel, a#confirmation, a#calendarEntry {
+    background: transparent;
+    border-color: var(--sliderbox-bg-color);
+    color: var(--Tekst-summary-headings);
+    text-shadow: none;
+}
