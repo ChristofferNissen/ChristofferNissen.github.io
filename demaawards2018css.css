@@ -227,6 +227,7 @@ img.train {
     bottom: 0;
     width: 52% !important;
     height: auto !important;
+    display:none;
 }
 
 .regIframeWrapper {
