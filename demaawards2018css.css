@@ -545,7 +545,12 @@ p.naer {
         z-index: 0;
         background: "http://www.trippus.se/eventus/userfiles/94168.png";
         background-size: cover;
+    }
+    
+    .mpiLogo{
+		height: 100px!important;
 	}
+
 	.scrollWrapper{
 		bottom: 30vh;
 	}
