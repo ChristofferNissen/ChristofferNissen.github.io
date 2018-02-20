@@ -581,9 +581,3 @@ p.naer {
 		position: relative;
 	}
 }
-
-.fullpage{
-    height: 100%;
-    position: relative;
-    touch-action: none ;
-}
