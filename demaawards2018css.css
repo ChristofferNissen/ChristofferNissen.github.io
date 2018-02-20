@@ -586,6 +586,4 @@ p.naer {
     height: 100%;
     position: relative;
     touch-action: none ;
-    transition: all 0ms ease !important;
-    
 }
