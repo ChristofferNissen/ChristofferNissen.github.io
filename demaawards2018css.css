@@ -584,7 +584,8 @@ p.naer {
 }
 
     .logomainpage{
-        padding: 10%;
-        max-width: 100%;
+        padding: 0% 10% 0% 20%;
+        max-width: 800px;
+        width: 100%;
         height: auto;
     }
