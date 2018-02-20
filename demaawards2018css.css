@@ -284,7 +284,8 @@ img.train {
   	position: absolute;
   	top: 50%;
   	left: 50%;
-  	transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+    z-index: -1;
 }
 
 .customHeaderInfo {
@@ -307,7 +308,7 @@ img.train {
     background: rgba(35, 46, 64, 0.95);
     */
     background: rgba(196, 156, 102, 0.63);
-    z-index: 15;
+    z-index: 0;
 }
 
 p.vart {
