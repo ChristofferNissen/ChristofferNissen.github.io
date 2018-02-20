@@ -305,6 +305,7 @@ img.train {
     background: rgba(35, 46, 64, 0.95);
     */
     background:#c49c66;
+    opacity: 0.95;
     z-index: 15;
 }
 
