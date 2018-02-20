@@ -365,7 +365,7 @@ p.naer {
 	text-decoration: none;
 }
 
-
+/*
 @keyframes scrollDown{
   0%{
     top: 24px;
@@ -383,6 +383,7 @@ p.naer {
     top: 24px;
     }
 }
+*/
 
 
 .second{
@@ -584,7 +585,7 @@ p.naer {
 .fullpage{
     height: 100%;
     position: relative;
-    touch-action: none;
-    transition: all 0ms ease;
+    touch-action: none ;
+    transition: all 0ms ease !important;
     
 }
