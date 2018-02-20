@@ -584,3 +584,9 @@ p.naer {
         width: 100%;
         height: auto;
     }
+
+    @media screen and (max-width: 990px){
+    .frontText{
+        padding-top: 2vh !important;
+    }
+}
