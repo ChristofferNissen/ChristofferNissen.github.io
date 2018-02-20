@@ -217,7 +217,7 @@ img.robot {
 }
 
 img.mpiLogo {
-    height: 100px !important;
+    padding-bottom: 10px;
 }
 
 
@@ -560,7 +560,7 @@ p.naer {
     }
     
     .mpiLogo{
-		height: 100px!important;
+        height: 10vh!important;
 	}
 
 	.scrollWrapper{
