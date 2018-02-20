@@ -58,8 +58,10 @@ body {
   position: absolute;
   left: 16px;
   top: 24px;
+  /*
   transition: all 2s ease-in-out;
   animation: scrollDown 1.5s ease-in-out infinite;
+  */
 }
 
 .scrollText{
@@ -304,8 +306,7 @@ img.train {
     /*
     background: rgba(35, 46, 64, 0.95);
     */
-    background:#c49c66;
-    opacity: 0.95;
+    background: rgba(196, 156, 102, 0.63);
     z-index: 15;
 }
 
