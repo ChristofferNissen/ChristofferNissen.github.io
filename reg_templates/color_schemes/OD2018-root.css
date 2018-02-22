@@ -1,0 +1,32 @@
+/* Import template.css */
+/*@import url(https://cdn.rawgit.com/ChristofferNissen/ChristofferNissen.github.io/b348a90f/reg_templates/MinimalTemplate.css);*/
+@import url(https://cdn.rawgit.com/ChristofferNissen/ChristofferNissen.github.io/65bd863a/reg_templates/BasicTemplate.css);
+
+:root {
+    /* Main layout farver, sliderbox-bg-color sætter også farven for bælken i bunden, og opsummerings-bjælken */
+    --header-and-footer-color: transparent; /* Virker kun i minimal template */
+    --sliderbox-bg-color: #006bb3;
+    --slider-bg-color:white;
+    --summary-bg-color: #ffffff ;
+    --button-previous: #ffffff ;
+    --button-next: #ffffff  ;
+    --button-book: #ffffff ;
+    --grunddata-confirmation-shadow-color: #006bb3;
+    
+    /* Tekst farver i kronologisk rækkefælge, efter flowet igennem registreringen */
+    --Tekst-grunddata: white;
+    --Tekst-description: black;
+    --Tekst-slider: white;
+    --Tekst-person: black;
+    --Tekst-button: black;
+    --Tekst-summary-headings: white;
+    --Tekst-summary-person: black;
+    --Tekst-Summary-Generel-field: Black;
+    --Tekst-Field-actual-value: grey;
+
+    /* Kanter på kasser */
+    --Border-raius: 0px;
+
+    /* Billedbaggrund til mobil enhed */
+    --Mobile-background: white;
+}
