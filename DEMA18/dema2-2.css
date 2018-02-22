@@ -378,7 +378,7 @@ p.naer {
   background: #fff;
   box-shadow: -1px 14px 50px #5d3e271a;
   margin: -2%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .third .col-lg-4 {
