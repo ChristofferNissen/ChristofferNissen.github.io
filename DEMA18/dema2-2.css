@@ -28,7 +28,7 @@
 
 body {
   padding: 0;
-  background: #333;
+  background: #222;
 }
 
 .scrollWrapper {
@@ -119,20 +119,22 @@ p.linje6 {
   font-weight: 800;
 }
 
-.fourth .sectionNumber {
-  color: #f9b035;
+.card {
+  background: #fff;
+  padding: 25px;
 }
 
-.card {
-  background: #e9f2f1;
-  padding: 25px 40px 15px 40px;
+.fourth .row {
+    margin-bottom: 30px;
 }
 
 .fourth .card {
-  background: rgba(107, 216, 253, 0.3);
-  background-image: url(http://www.trippus.se/support-layout/Trippus/awards2018/holoOverlay.PNG);
-  border: 1px solid rgba(127, 189, 214, 0.5);
-  color: #dbe5eb;
+  background: rgba(29, 29, 29, 0.23);
+  color: #fff;
+}
+
+.fourth li.card-li {
+  font-size: 15px;
 }
 
 .fourth .rubrik {
@@ -141,9 +143,9 @@ p.linje6 {
 
 .card-li {
   list-style-type: none;
-  padding: 0 0 32px 0;
+  padding: 0 0 20px 0;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 li.card-li:last-child {
@@ -155,19 +157,21 @@ li.card-li:last-child {
 }
 
 .card-header {
-  padding-bottom: 32px;
-  border-bottom: 1px solid #d7d7d7;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .card-ul {
   padding: 0px;
-  padding-top: 40px;
+  padding-top: 20px;
+}
+
+ul {
+  padding-bottom: 0px;
 }
 
 .section.fourth .container {
-  padding: 1% 20%;
+  padding: 1% 15%;
   float: left;
   background: transparent !important;
 }
@@ -205,7 +209,7 @@ li.card-li:last-child {
 
 .right {
   float: left;
-  width: 80%;
+  width: 40%;
 }
 
 .right .rubrik {
@@ -228,8 +232,8 @@ section.reg {
 }
 
 .right .text {
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 30px;
   font-weight: 300;
   font-weight: 300;
 }
@@ -376,9 +380,9 @@ p.naer {
 
 .third .card {
   background: #fff;
-  box-shadow: -1px 14px 50px #5d3e271a;
+  box-shadow: -1px 14px 50px rgba(93, 62, 39, 0.1);
   margin: -2%;
-  /* height: 100vh; */
+  padding: 100px;
 }
 
 .third .col-lg-4 {
@@ -462,6 +466,18 @@ p.naer {
   img.logomainpage {
     min-width: 240px;
     width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  img.textmainpage {
+    min-width: 240px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  img.logomainpage {
+    width: 100%;
+    max-width: 500px;
   }
 }
 
@@ -605,7 +621,7 @@ p.naer {
 /* AWARD PROGRAMME */
 
 .day {
-  background: rgba(0,0,0,0.8) !important;
+  background: #222 !important;
   text-align: center;
   -webkit-transition: background 0.4s ease-in-out;
   -moz-transition: background 0.2s ease-in-out;
@@ -638,7 +654,7 @@ p.naer {
   -webkit-border-radius: 4px;
   -khtml-border-radius: 4px;
   border-radius: 4px;
-  background: #333 !important;
+  background: #222 !important;
   border: none;
   color: #c49c66;
   /* old browsers */
@@ -653,7 +669,7 @@ p.naer {
 
 .day-night:hover {
   background: #c49c66 !important;
-  color: #333;
+  color: #222;
   text-shadow: 0px 0px 30px rgba(50, 150, 255, 0.1), 0px 0px 10px rgba(80, 180, 255, 0.1);
   -moz-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0);
   -webkit-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0);
@@ -664,25 +680,25 @@ p.naer {
 /* CONFERENCE PROGRAMME */
 
 .night {
-  background: rgba(249,249,249,0.8)!important;
-
+  background: rgb(249, 249, 249)!important;
 }
 
 .night .span-day {
-  color: #333;
+  color: #222;
 }
 
 .night .text {
-  color: #333;
+  color: #222;
 }
 
 .span-day .card-header {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #222;
+  padding-bottom: 20px;
 }
 
 .night .day-night {
   background: #c49c66 !important;
-  color: #333;
+  color: #222;
   text-shadow: 0px 0px 30px rgba(255, 195, 0, 1), 0px 0px 10px rgba(255, 195, 0, 1);
   -moz-box-shadow: inset 0px -2px 0px rgba(255, 255, 0, 0.1);
   -webkit-box-shadow: inset 0px -2px 0px rgba(255, 255, 0, 0.1);
@@ -690,7 +706,7 @@ p.naer {
 }
 
 .night .day-night:hover {
-  background: #333 !important;
+  background: #222 !important;
   color: #c49c66;
   -moz-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0);
   -webkit-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0);
