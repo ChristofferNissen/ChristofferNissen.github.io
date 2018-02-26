@@ -397,27 +397,27 @@ p.naer {
   text-align: left;
 }
 
-.third .right .text2 {
+.text2 {
   width: 100%;
   padding-bottom: 3%;
   text-align: left;
   font-size: 18px;
 }
 
-.third .right .text3 {
+.text3 {
   width: 100%;
   font-size: 18px;
   text-align: left;
 }
 
-.third .right .text4 {
+.text4 {
   width: 100%;
   padding-top: 2%;
   font-size: 18px;
   text-align: left;
 }
 
-.third .right {
+.third2 .right {
   width: 80%;
   background: rgba(256,256,256,0.4);
   padding: 1%;
