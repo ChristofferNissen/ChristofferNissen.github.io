@@ -397,6 +397,12 @@ p.naer {
   text-align: left;
 }
 
+.third .right .text2 {
+  width: 100%;
+  padding-bottom: 3%;
+  text-align: left;
+}
+
 .raket_button {
   background: #f9b035;
   padding: 20px 70px;
