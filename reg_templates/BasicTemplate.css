@@ -190,3 +190,10 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     color: var(--slider-bg-color) /*{a-active-color}*/;
     text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/var(--sliderbox-bg-color)/*{a-active-shadow-color}*/;
 }
+
+
+.summary-activity, .summary-accommodation, .summary-discount, .summary-general-information-contents{
+    background: var(--summary-bg-color);
+    border-color: var(--summary-bg-color);
+    color: var(--Tekst-summary-person);
+}
