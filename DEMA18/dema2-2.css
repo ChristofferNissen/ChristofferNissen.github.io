@@ -517,6 +517,11 @@ p.naer {
     padding: 40px;
   }
 
+  .fourth .fp-tableCell{
+    background: url(http://www.trippus.se/eventus/userfiles/94165.png) no-repeat center center;
+    background-size: cover;
+  }
+
   body,
   html {
     overflow-x: hidden
