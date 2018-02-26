@@ -401,6 +401,13 @@ p.naer {
   width: 100%;
   padding-bottom: 3%;
   text-align: left;
+  font-size: 18px;
+}
+
+.third .right .text3 {
+  width: 100%;
+  font-size: 18px;
+  text-align: left;
 }
 
 .raket_button {
