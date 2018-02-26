@@ -518,7 +518,7 @@ p.naer {
   }
 
   .fourth .fp-tableCell{
-    background: url(http://www.trippus.se/eventus/userfiles/94165.png) no-repeat center center;
+    background: url("http://www.trippus.se/eventus/userfiles/94165.png") no-repeat center center;
     background-size: cover;
   }
 
