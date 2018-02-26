@@ -58,10 +58,6 @@ body {
   position: absolute;
   left: 16px;
   top: 24px;
-  /*
-  transition: all 2s ease-in-out;
-  animation: scrollDown 1.5s ease-in-out infinite;
-  */
 }
 
 .right .rubrik {
@@ -71,10 +67,9 @@ body {
 }
 
 .nom-tekst {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 14px;
+  color:white;
 }
-
 
 /* HEADER TEXT */
 
