@@ -1,8 +1,3 @@
-/* FJERN PRIS BOKS - RESPONSOV formular */
-#button-summary {
-    display: none !important;
-}
-
 @media screen and (max-width: 736px) {
     #tv {
         display:none;
@@ -88,13 +83,14 @@ span {
     text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #eee /*{a-bar-shadow-color}*/;
     font-weight: bold;
 }
-
+/*
 a#button-summary{
     background: var(--button-summary);
     border-color: var(--button-summary);
-    color:var(--Tekst-button); /* "knap-tekst" */
+    color:var(--Tekst-button); 
     border-radius: var(--Border-raius);
 }
+*/
 
 #button-next{
     background: var(--button-next);
