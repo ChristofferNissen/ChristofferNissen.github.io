@@ -432,7 +432,7 @@ p.naer {
 .raket_button {
   background: #f9b035;
   padding: 20px 70px;
-  border-radius: 30px;
+  border-radius: 50px;
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
@@ -441,6 +441,8 @@ p.naer {
     */
   font-size: 20px;
   text-decoration: none;
+  display: block;
+    width: 280px;
 }
 
 .raket_button:hover {
