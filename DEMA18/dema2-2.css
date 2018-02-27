@@ -416,6 +416,13 @@ p.naer {
   text-align: left;
   font-size: 18px;
 }
+.text2bw {
+  width: 100%;
+  font-weight: bold;
+  text-align: left;
+  font-size: 18px;
+  color:white;
+}
 
 .text3 {
   width: 100%;
