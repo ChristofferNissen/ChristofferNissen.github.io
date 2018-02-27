@@ -358,7 +358,7 @@ img.train {
     background: rgba(35, 46, 64, 0.95);
     */
   background: rgba(171, 134, 86, 0.87);
-  z-index: 0;
+  z-index: 1;
 }
 
 p.vart {
