@@ -334,6 +334,7 @@ img.train {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 .customHeaderInfo {
@@ -358,8 +359,13 @@ img.train {
     background: rgba(35, 46, 64, 0.95);
     */
   background: rgba(171, 134, 86, 0.87);
-  z-index: 1;
+  z-index: 2;
 }
+
+.logo_container{
+  z-index: 3;
+}
+
 
 p.vart {
   font-size: 20px;
