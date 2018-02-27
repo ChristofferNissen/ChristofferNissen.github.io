@@ -1,0 +1,68 @@
+<!--<link href="http://www.trippus.se/eventus/userfiles/94303.css" type="text/css" rel="stylesheet">-->
+<link rel="stylesheet" type="text/css" href="https://ChristofferNissen.github.io/DEMA18/dema2-2.css">
+
+<!--
+<link rel="stylesheet" type="text/css" href="//www.trippus.se/support-layout/Trippus/awards2018/jquery.fullPage.css" />
+<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+<!--<script src="//www.trippus.se/support-layout/Trippus/awards2018/vendors/jquery.easings.min.js"></script> -->
+<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+<!--<script type="text/javascript" src="//www.trippus.se/support-layout/Trippus/awards2018/vendors/scrolloverflow.min.js"></script>-->
+<!--<script type="text/javascript" src="//www.trippus.se/support-layout/Trippus/awards2018/jquery.fullPage.js"></script> -->
+<!--
+<script>
+$(document).ready(function() {
+    if(screen.width < 700) { 
+		//$('.raket_button').attr('href', '|!PREDEFREGACCEPT!|');
+        var url = $('.urlClass').attr('href');
+        $('.raket_button').attr('href', url);
+        
+	} else {
+        var isSafari = navigator.vendor.indexOf("Apple")==0 && /\sSafari\//.test(navigator.userAgent); // true or false
+       
+        $('.fullpage').fullpage({
+		scrollOverflow: true
+	});	
+
+         if(isSafari == false){
+    $('.raket_button').click(function(){
+         $('.reg').css('background', '#000');
+        $('.reg .textblock').fadeTo('slow', 0);
+        $('.regIframeWrapper').css('top', '0');
+        setTimeout(function(){
+          $('.regIframeWrapper iframe').fadeTo('slow', 10);
+          $('.regIframeWrapper iframe').css({
+            '-webkit-transform' : 'scale(1)',
+            '-moz-transform'    : 'scale(1)',
+            '-ms-transform'     : 'scale(1)',
+            '-o-transform'      : 'scale(1)',
+            'transform'         : 'scale(1)'
+          })
+        }, 2000);
+    });
+        }else{
+        var url = $('.urlClass').attr('href');
+       $('.raket_button').attr('href', url);
+       }
+}
+});
+</script>
+-->
+
+
+<style>
+/* Fjerner "Menu"-overskrift på NY presentation  */
+.MenuLiHeader {display: none;}
+</style>
+
+<style>
+/* fjerner menubar */
+.E2ETblCell2 {display: none;}
+.MenuUl {border: none;}
+</style>
+
+<style>
+.E2TblStd td {
+    padding: 0px;
+    display: inline-block;
+}
+</style>

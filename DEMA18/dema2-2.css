@@ -317,12 +317,6 @@ img.train {
   transform: scale(0);
 }
 
-.customHeader {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .customHeader video {
   min-width: 100%;
   min-height: 100%;
