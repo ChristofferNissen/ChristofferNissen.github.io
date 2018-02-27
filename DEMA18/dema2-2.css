@@ -76,21 +76,25 @@ body {
 
 p.linje1 {
   font-size: 20px;
+  padding-right: 20%;
 }
 
 p.linje2 {
   font-size: 51px;
   font-weight: 800;
+  padding-right: 20%;
 }
 
 p.linje3 {
   font-size: 27px;
   letter-spacing: 2.65px;
+  padding-right: 20%;
 }
 
 p.linje4 {
   font-size: 55px;
   letter-spacing: 6px;
+  padding-right: 20%;
 }
 
 p.linje5 {
@@ -98,12 +102,14 @@ p.linje5 {
   letter-spacing: 12px;
   line-height: 54px;
   font-weight: 600;
+  padding-right: 20%;
 }
 
 p.linje6 {
   font-weight: 900;
   font-size: 73px;
   line-height: 68px;
+  padding-right: 20%;
 }
 
 .frontText {
@@ -139,6 +145,10 @@ p.linje6 {
 }
 
 .fourth .rubrik {
+  color: #fff;
+}
+
+.section reg .rubrik {
   color: #fff;
 }
 
