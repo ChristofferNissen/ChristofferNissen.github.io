@@ -491,6 +491,11 @@ p.naer {
   background-size: cover;
 }
 
+.fourth {
+  background: url(http://www.trippus.se/eventus/userfiles/94165.png) no-repeat center center;
+    background-size: cover;
+}
+
 @media screen and (max-width: 899px) {
   p.linje1 {
     font-size: 12px;
