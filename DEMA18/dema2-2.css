@@ -68,8 +68,9 @@ body {
 
 .nom-tekst {
   font-size: 14px;
-  color:white;
+  color: white;
 }
+
 
 /* HEADER TEXT */
 
@@ -125,7 +126,7 @@ p.linje6 {
 }
 
 .fourth .row {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .fourth .card {
@@ -317,6 +318,13 @@ img.train {
   transform: scale(0);
 }
 
+.customHeader {
+  top: 0;
+  left: 0;
+  background: url('https://www.trippus.se/MediaLibrary/142/GSM18_WEB_GSM 2018_1.jpg') no-repeat center center;
+  background-size: cover;
+}
+
 .customHeader video {
   min-width: 100%;
   min-height: 100%;
@@ -326,7 +334,6 @@ img.train {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: -1;
 }
 
 .customHeaderInfo {
@@ -336,9 +343,9 @@ img.train {
   align-items: center;
   text-align: center;
   flex-flow: row wrap;
-  position: relative;
   z-index: 20;
   height: 100vh;
+  padding-top: 30vh;
   text-transform: uppercase;
 }
 
@@ -413,7 +420,7 @@ p.naer {
 
 .third2 .right {
   width: 80%;
-  background: rgba(256,256,256,0.4);
+  background: rgba(256, 256, 256, 0.4);
   padding: 1%;
 }
 
@@ -541,13 +548,11 @@ p.naer {
     margin: -2%;
     padding: 40px;
   }
-
-  .fourth .fp-tableCell{
+  .fourth .fp-tableCell {
     background: url(https://www.trippus.se/eventus/userfiles/94165.png) no-repeat center center;
     background-image: url(https://www.trippus.se/eventus/userfiles/94165.png) no-repeat center center;
     background-size: cover;
   }
-
   body,
   html {
     overflow-x: hidden
@@ -644,11 +649,10 @@ p.naer {
   }
   .section {
     min-height: 100vh;
-    height: auto !important;
+    height: auto;
     width: 100%;
     box-sizing: border-box;
-    overflow: auto !important;
-    overflow-x: hidden;
+    overflow: hidden;
     position: relative;
   }
 }
