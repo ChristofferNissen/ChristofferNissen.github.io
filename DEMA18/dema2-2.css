@@ -346,7 +346,6 @@ img.train {
   flex-flow: row wrap;
   z-index: 20;
   height: 100vh;
-  padding-top: 30vh;
   text-transform: uppercase;
 }
 
@@ -492,7 +491,7 @@ p.naer {
 }
 
 .fourth {
-  background: url(http://www.trippus.se/eventus/userfiles/94165.png) no-repeat center center;
+  background: url(http://www.trippus.se/eventus/userfiles/94165.png)padding no-repeat center center;
     background-size: cover;
 }
 
