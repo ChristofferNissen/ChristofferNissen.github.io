@@ -521,6 +521,12 @@ p.naer {
   background-size: cover;
 }
 
+.second,
+.reg {
+  display: flex;
+  align-items: center;
+}
+
 @media screen and (max-width: 899px) {
   p.linje1 {
     font-size: 12px;
