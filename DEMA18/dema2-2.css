@@ -488,7 +488,9 @@ p.naer {
     padding-right: 2em;
     padding-top: 2em;
 }
-
+.navbar_gsm2018 li a {
+    color: white;
+}
 
 /* SCROLL ARROW */
 
