@@ -541,6 +541,16 @@ p.naer {
   width: 70%;
 }
 
+.partner_container {
+  display: flex;
+  align-items: center;
+}
+
+.partner img {
+  width: 300px;
+  padding: 20px;
+}
+
 @media screen and (max-width: 899px) {
   p.linje1 {
     font-size: 12px;
