@@ -476,6 +476,21 @@ p.naer {
   color: #fff;
 }
 
+
+/* NAVBAR */
+
+.navbar-fixed-top {
+    left: auto;
+}
+
+.navbar_gsm2018 {
+    list-style: none;
+    text-align: right;
+    padding-right: 2em;
+    padding-top: 6em;
+}
+
+
 /* SCROLL ARROW */
 
 #active_scroll,
@@ -678,7 +693,11 @@ section.sixth {
 }
 
 @media screen and (max-width: 500px) {
-   .logo_link {
+  .navbar_gsm2018 {
+    display: none;
+} 
+  
+  .logo_link {
     z-index: 4;
     margin: 5px;
      position: relative;
@@ -800,7 +819,6 @@ section.sixth {
 }
 
 
-/* TEST AF PROGRAM OFF/ON */
 
 
 /* AWARD PROGRAMME */
