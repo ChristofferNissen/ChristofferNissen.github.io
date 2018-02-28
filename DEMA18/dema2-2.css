@@ -628,6 +628,7 @@ section.sixth {
    .logo_link {
     z-index: 4;
     margin: 5px;
+     position: relative;
 }
   
   .third .card {
