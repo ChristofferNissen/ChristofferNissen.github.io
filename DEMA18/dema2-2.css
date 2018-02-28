@@ -699,9 +699,7 @@ section.sixth {
 }
 
 @media screen and (max-width: 500px) {
-  .navbar_gsm2018 {
-    display: none;
-  }
+ 
   .logo_link {
     z-index: 4;
     margin: 5px;
@@ -769,6 +767,10 @@ section.sixth {
 }
 
 @media screen and (max-width: 990px) {
+   .navbar_gsm2018 {
+    display: none;
+  }
+  
   .regIframeWrapper iframe {
     width: 100%;
   }
