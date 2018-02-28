@@ -549,8 +549,11 @@ section.sixth {
 }
 
 .partner_container {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    width: 100%;
 }
 
 .partner img {
