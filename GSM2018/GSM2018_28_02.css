@@ -1,0 +1,728 @@
+.alert {
+  color: #C7443C;
+}
+
+.header-content {
+  display: none !important;
+}
+
+* {
+  font-family: Verdana !important;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: #00839b;
+  transition: .2s ease-out;
+}
+
+.fourth .text {
+  color: rgb(0, 25, 101);
+}
+
+.navbar-fixed-top {
+  left: auto;
+}
+
+.navbar_gsm2018 {
+  list-style: none;
+  text-align: right;
+  padding-right: 2em;
+  padding-top: 6em;
+}
+
+.navbar_gsm2018 li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.menu-content {
+  display: none;
+}
+
+.main-content {
+  width: 100%;
+  border: none;
+  display: block;
+  padding: 0;
+  float: none;
+}
+
+.container {
+  max-width: 100% !important;
+  width: 100%;
+  min-width: 100%;
+}
+
+.logo_link {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0;
+  width: 80px;
+  height: auto;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.footer-content a img {
+  display: none;
+}
+
+body {
+  padding: 0;
+  background: #333;
+}
+
+
+/* SCROLL ARROW */
+
+#active_scroll,
+#active_scroll:hover,
+#active_scroll:active,
+#active_scroll:visited,
+#active_scroll:focus {
+  color: rgba(240, 248, 255, 0) !important;
+}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 6px);
+  transform: rotate(-45deg);
+  display: block;
+  width: 12px;
+  height: 12px;
+  content: "";
+  border: 2px solid white;
+  border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+
+/* END */
+
+.scrollWrapper {
+  width: 100%;
+  height: 66px;
+  line-height: 66px;
+  position: absolute;
+  bottom: 75px;
+  text-align: center;
+}
+
+.scrollBase {
+  background: #fff;
+  width: 66px;
+  height: 66px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.scrollArrow {
+  background: url('https://www.trippus.se/MediaLibrary/133/scrollArrow.png');
+  height: 18px;
+  width: 33px;
+  position: absolute;
+  left: 16px;
+  top: 24px;
+  transition: all 2s ease-in-out;
+  animation: scrollDown 1.5s ease-in-out infinite;
+}
+
+.scrollText {
+  color: #fff;
+  height: 66px;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.customHeaderInfo h1 {
+  font-size: 102px;
+  font-weight: 800;
+}
+
+.customHeaderInfo p {
+  font-size: 40px;
+}
+
+
+/* backgrounds */
+
+.second {
+  background: url('https://www.trippus.se/MediaLibrary/142/GSM18_WEB_GSM 2018_2.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.third {
+  background: url('https://www.trippus.se/MediaLibrary/142/GSM18_WEB_GSM 2018_3.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.fourth {
+  background: url('https://www.trippus.se/MediaLibrary/142/GSM18_WEB_programme.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.fifth {
+  background: url('https://www.trippus.se/MediaLibrary/142/GSM18_WEB_workshop-kopi.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.sixth {
+  background: url('https://www.trippus.se/MediaLibrary/142/2_GSM18_WEB_venue.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.seventh {
+  background: url('https://www.trippus.se/MediaLibrary/142/GSM18_WEB_registration.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.reg {
+  background: url('https://www.trippus.se/MediaLibrary/142/GSM18_WEB_contact.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+
+/* END */
+
+.textblock {
+  width: auto;
+  height: auto;
+  margin-top: 0%;
+  margin: 10% 28%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.third .textblock {
+  margin: 10% 30%;
+  font-weight: 100;
+}
+
+.fourth .textblock {
+  font-weight: 600;
+  padding: 70px;
+  
+}
+
+.fifth .textblock {
+  font-weight: 100;
+  font-size: 9px;
+  margin: 10% 19%;
+}
+
+.sixth .textblock {
+  margin: 10% 30%;
+  font-weight: 100;
+}
+
+.reg .textblock {
+  padding-top: 10%;
+}
+
+
+/* GRID STYLES WORKSHOPS */
+
+.item1 {
+  grid-area: workshop1;
+}
+
+.item2 {
+  grid-area: workshop2;
+}
+
+.item3 {
+  grid-area: workshop3;
+}
+
+.item4 {
+  grid-area: workshop4;
+}
+
+.item5 {
+  grid-area: workshop5;
+}
+
+.item6 {
+  grid-area: workshop6;
+}
+
+.item7 {
+  grid-area: workshop7;
+}
+
+.item8 {
+  grid-area: workshop8;
+}
+
+.item9 {
+  grid-area: workshop9;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'workshop1 workshop2 workshop3' 'workshop1 workshop2 workshop3' 'workshop4 workshop2 workshop3' 'workshop4 workshop2 workshop6''workshop4 workshop5 workshop6' 'workshop4 workshop5 workshop6''workshop4 workshop5 workshop6' 'workshop7 workshop5 workshop6' 'workshop7 workshop8 workshop9' 'workshop7 workshop8 workshop9' 'workshop7 workshop8 workshop9';
+  grid-gap: 20px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+
+/*.grid-container > div {
+  padding: 20px 0;
+}
+*/
+
+
+/* END */
+
+h3 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h4 {
+  color: rgb(0, 159, 218);
+  font-weight: bold;
+}
+
+h5 {
+  color: rgb(0, 159, 218);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.text {
+  color: #ffffff;
+}
+
+.rubrik {
+  color: #001965;
+}
+
+.rubrik_1 {
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+.rubrik_2 {
+  font-size: 80px;
+  line-height: 95px;
+}
+
+.rubrik_3 {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  line-height: 60px;
+}
+
+.GSM2018 {
+  display: flex;
+  align-items: flex-start;
+  line-height: 23px;
+}
+
+img.GSM_Logo {
+  width: 60%;
+  padding-top: 10px;
+}
+
+.map_container {
+  padding-top: 1em;
+}
+
+.left {
+  float: left;
+  width: 15%;
+}
+
+section.reg {
+  transition: 1s all;
+}
+
+.section {
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+img.robot {
+  width: 50%;
+  position: absolute;
+  right: -83px;
+  bottom: 0;
+}
+
+img.train {
+  position: absolute;
+  right: -83px;
+  bottom: 0;
+  width: 52% !important;
+  height: auto !important;
+}
+
+.regIframeWrapper {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  text-align: center;
+  transition: 2s all ease-in-out;
+}
+
+.regIframeWrapper iframe {
+  margin: 0 auto;
+  width: 42%;
+  height: auto;
+  min-height: 1010px;
+  opacity: 0;
+  margin-top: 10vh;
+  transition: 2s all ease-in-out;
+  transform: scale(0);
+}
+
+.header {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 2:
+}
+
+.customHeader {
+  top: 0;
+  left: 0;
+  background: url('https://www.trippus.se/MediaLibrary/142/GSM18_WEB_GSM 2018_1.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.customHeader video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.customHeaderInfo {
+  color: #dba753;
+  display: block;
+  text-align: center;
+  position: relative;
+  z-index: 20;
+  height: 100vh;
+  padding-top: 30vh;
+  text-transform: uppercase;
+}
+
+#bgvid {
+  width: 100px;
+}
+
+.third .col-lg-4 {
+  padding: 0;
+  margin-top: 30px;
+  width: 45% !important;
+}
+
+.raket_button {
+  background: url(http://www.trippus.se/eventus/userfiles/94352.png);
+  width: 200px;
+  height: auto;
+  border-radius: 7px;
+}
+
+section#section7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table_line td:first-child {
+  padding-right: 1em;
+  vertical-align: top;
+  width: 10%;
+}
+
+.table_line {
+  padding: 1em;
+}
+
+
+/*
+.raket_button {
+  background: #f9b035;
+  padding: 20px 40px;
+  border-radius: 92px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 300px;
+}
+
+.raket_button:hover {
+  background: rgb(0, 159, 218);
+  transition: .2s all ease-in-out;
+  color: #fff;
+  text-decoration: none;
+}
+
+.raket_button:focus {
+  color: #fff;
+  text-decoration: none;
+} */
+
+.seventh .text {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes scrollDown {
+  0% {
+    top: 24px;
+  }
+  25% {
+    top: 24px;
+  }
+  50% {
+    top: 30px;
+  }
+  75% {
+    top: 22px;
+  }
+  100% {
+    top: 24px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .third .col-lg-4 {
+    width: 70% !important;
+  }
+  .robot {
+    width: 50% !important;
+    height: auto !important;
+    z-index: 0;
+  }
+  .train {
+    top: 245px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .third .col-lg-4 {
+    z-index: 2;
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body,
+  html {
+    overflow-x: hidden
+  }
+  .third .col-lg-4 {
+    z-index: 2;
+    width: 100% !important;
+    margin-bottom: 70px;
+  }
+  .fourth .right .rubrik {
+    font-size: 38px;
+  }
+  .regIframeWrapper {
+    display: none;
+  }
+  .right .rubrik {
+    padding-top: 0px;
+  }
+  .third .right .rubrik {
+    padding-top: 25px;
+  }
+  .customHeader {
+    overflow-x: hidden !important;
+  }
+  .third .right {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+  }
+  .reg h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .mobile-navr__logo-link {
+    display: none;
+  }
+  .navbar_gsm2018 {
+    display: none;
+  }
+  .fourth .textblock {
+    padding: 18px !important;
+    margin: 0px !important;
+  }
+  .third .textblock {
+    margin: 10% auto !important;
+    width: 300px;
+  }
+  .sixth .textblock {
+    margin: 10% 6%;
+  }
+  
+}
+
+@media screen and (max-width: 990px) {
+   .grid-container {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .fifth .textblock {
+    margin: 10% 10%;
+}
+  
+  body .customHeader {
+    background: #21a3e0;
+  }
+  .regIframeWrapper iframe {
+    width: 100%;
+  }
+  .col-lg-3 {
+    margin-bottom: 15px;
+  }
+  .customHeaderInfo {
+    padding-top: 15vh;
+  }
+  .fullpage section {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .customHeaderInfo p:first-child {
+    font-size: 14px;
+  }
+  .customHeaderInfo h1 {
+    font-size: 35px;
+  }
+  p.vart {
+    font-size: 12px;
+    letter-spacing: 5px;
+    padding-top: 10px;
+  }
+  p.naer {
+    font-size: 27px;
+    padding-top: 16px;
+  }
+  .textblock {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  .train {
+    width: 90% !important;
+    height: auto !important;
+    right: 0 !important;
+  }
+  .third .right .text {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  .right .text {
+    z-index: 100;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  section {
+    overflow-x: hidden;
+  }
+  .robot {
+    width: 55% !important;
+    height: auto !important;
+    z-index: 0;
+  }
+  .scrollWrapper {
+    bottom: 30vh;
+  }
+  .section {
+    min-height: 100vh;
+    height: auto !important;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto !important;
+    overflow-x: hidden;
+    position: relative;
+  }
+}
