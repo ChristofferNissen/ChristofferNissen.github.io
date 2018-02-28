@@ -279,10 +279,9 @@ a.mpiLogo {
 
 .logo_link {
   position: fixed;
-  z-index: 1;
+  z-index: 4;
   display: flex;
-  padding: 7px;
-  top: 0;
+  margin: 20px;
   width: 120px;
   height: auto;
 }
