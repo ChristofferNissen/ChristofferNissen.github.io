@@ -117,7 +117,6 @@ p.linje6 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 430px;
   font-weight: 400;
 }
 
