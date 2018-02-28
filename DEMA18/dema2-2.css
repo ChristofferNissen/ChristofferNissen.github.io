@@ -40,7 +40,7 @@ a:hover {
 
 body {
   padding: 0;
-  background: #222;
+  background: linear-gradient(180deg, #84301a 0%, #c49c66 175%);
 }
 
 .scrollWrapper {
