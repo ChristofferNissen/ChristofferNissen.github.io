@@ -560,6 +560,15 @@ section.sixth {
   padding: 20px;
 }
 
+@media screen and (max-width: 450px){
+  .logo_link {
+    z-index: 4;
+    margin: 5px;
+}
+}
+
+
+
 @media screen and (max-width: 899px) {
   p.linje1 {
     font-size: 12px;
