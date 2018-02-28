@@ -336,7 +336,6 @@ img.train {
 .customHeader {
   top: 0;
   left: 0;
-  background: url('https://www.trippus.se/MediaLibrary/142/GSM18_WEB_GSM 2018_1.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -487,7 +486,7 @@ p.naer {
     list-style: none;
     text-align: right;
     padding-right: 2em;
-    padding-top: 6em;
+    padding-top: 2em;
 }
 
 
