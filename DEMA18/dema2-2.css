@@ -454,31 +454,30 @@ p.naer {
 }
 
 .raket_button {
-  background: #f9b035;
+  background: #862e21;
   padding: 20px 70px;
-  border-radius: 50px;
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
-  /*
-    transition: .2s all ease-in-out;
-    */
   font-size: 20px;
   text-decoration: none;
-  display: block;
+  display: flex;
+  justify-content: center;
   width: 280px;
 }
 
 .raket_button:hover {
-  background: #ee7365;
+  background: #d24e2c;
   color: #fff;
   text-decoration: none;
+  transition: .2s all ease-in-out;
 }
-
 
 .reg .rubrik {
-    color: #fff;
+  color: #fff;
 }
+
+
 /*
 @keyframes scrollDown{
   0%{
