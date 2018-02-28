@@ -322,8 +322,6 @@ img.train {
     */
 }
 
-
-
 .regIframeWrapper iframe {
   margin: 0 auto;
   width: 42%;
@@ -425,7 +423,6 @@ p.naer {
   text-align: left;
   font-size: 18px;
 }
-
 
 .text3 {
   width: 100%;
@@ -530,13 +527,9 @@ p.naer {
 }
 
 section.sixth {
-    min-height: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+  min-height: 100%;
+  padding-bottom: 5%;
 }
-
-
 
 .second,
 .reg {
@@ -549,10 +542,10 @@ section.sixth {
 }
 
 .partner_container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-flow: row wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
 }
 
 .partner img {
