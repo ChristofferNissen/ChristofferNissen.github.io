@@ -529,6 +529,13 @@ p.naer {
   background: linear-gradient(180deg, #84301a 0%, #c49c66 175%);
 }
 
+section.sixth {
+    min-height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
 
 
 .second,
