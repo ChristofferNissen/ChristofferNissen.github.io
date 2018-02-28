@@ -578,6 +578,10 @@ p.naer {
   
   .fourth .row {
    margin-bottom: 0px;
+  }
+  .third .card {
+    padding: 50px;
+  }
 }
 
 @media screen and (max-width: 500px) {
