@@ -426,20 +426,6 @@ p.naer {
   font-size: 18px;
 }
 
-.text2b {
-  width: 100%;
-  font-weight: bold;
-  text-align: left;
-  font-size: 18px;
-}
-
-.text2bw {
-  width: 100%;
-  font-weight: bold;
-  text-align: left;
-  font-size: 18px;
-  color: white;
-}
 
 .text3 {
   width: 100%;
@@ -481,6 +467,10 @@ p.naer {
 }
 
 .reg .rubrik {
+  color: #fff;
+}
+
+.sixth .rubrik {
   color: #fff;
 }
 
