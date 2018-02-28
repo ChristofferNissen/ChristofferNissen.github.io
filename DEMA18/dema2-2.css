@@ -166,7 +166,7 @@ p.linje6 {
 .card-li {
   list-style-type: none;
   padding: 0 0 20px 0;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 20px;
 }
 
@@ -322,10 +322,7 @@ img.train {
     */
 }
 
-.reg {
-  background: url(http://www.trippus.se/eventus/userfiles/94166.png) no-repeat center center;
-  background-size: cover;
-}
+
 
 .regIframeWrapper iframe {
   margin: 0 auto;
@@ -532,6 +529,17 @@ p.naer {
   background: url(http://www.trippus.se/eventus/userfiles/94165.png) no-repeat center center;
   background-size: cover;
 }
+
+.reg {
+  background: url(http://www.trippus.se/eventus/userfiles/94166.png) no-repeat center center;
+  background-size: cover;
+}
+
+.sixth {
+  background: linear-gradient(180deg, #84301a 0%, #c49c66 175%);
+}
+
+
 
 .second,
 .reg {
