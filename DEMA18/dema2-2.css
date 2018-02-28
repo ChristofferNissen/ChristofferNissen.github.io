@@ -4,16 +4,16 @@
   font-family: 'Montserrat', sans-serif !important;
 }
 
-
 a {
-    color: #872d20;
-    text-decoration: none;
-    text-transform: uppercase;
+  color: #872d20;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 a:hover {
   text-decoration: underline;
-  transition:  .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+  color: #d24e2c;
 }
 
 .menu-content {
@@ -540,7 +540,7 @@ p.naer {
 }
 
 .reg .right {
-    width: 70%;
+  width: 70%;
 }
 
 @media screen and (max-width: 899px) {
