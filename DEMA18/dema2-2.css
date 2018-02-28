@@ -546,6 +546,8 @@ section.sixth {
   align-items: center;
   justify-content: space-around;
   flex-flow: row wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .partner img {
