@@ -437,6 +437,12 @@ p.naer {
   text-align: left;
 }
 
+.text2bw {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
 .third2 .right {
   width: 80%;
   background: rgba(256, 256, 256, 0.4);
