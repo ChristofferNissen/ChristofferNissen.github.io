@@ -10,7 +10,7 @@ a {
   text-transform: uppercase;
 }
 
-a:hover, 
+a:hover,
 a:active,
 a:focus {
   text-decoration: underline;
@@ -492,12 +492,13 @@ p.naer {
 }
 
 .navbar_gsm2018 li a {
-  color: #fff;
   padding-left: 10px;
   padding-right: 10px;
 }
- 
 
+.active {
+  color: #c49b65;
+}
 
 
 /* SCROLL ARROW */
