@@ -4,6 +4,18 @@
   font-family: 'Montserrat', sans-serif !important;
 }
 
+
+a {
+    color: #872d20;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition:  .2s all ease-in-out;
+}
+
 .menu-content {
   display: none;
 }
