@@ -371,10 +371,9 @@ img.train {
   z-index: 2;
 }
 
-.logo_container{
+.logo_container {
   z-index: 3;
 }
-
 
 p.vart {
   font-size: 20px;
@@ -426,12 +425,13 @@ p.naer {
   text-align: left;
   font-size: 18px;
 }
+
 .text2bw {
   width: 100%;
   font-weight: bold;
   text-align: left;
   font-size: 18px;
-  color:white;
+  color: white;
 }
 
 .text3 {
@@ -466,7 +466,7 @@ p.naer {
   font-size: 20px;
   text-decoration: none;
   display: block;
-    width: 280px;
+  width: 280px;
 }
 
 .raket_button:hover {
@@ -518,7 +518,7 @@ p.naer {
 
 .fourth {
   background: url(http://www.trippus.se/eventus/userfiles/94165.png) no-repeat center center;
-    background-size: cover;
+  background-size: cover;
 }
 
 @media screen and (max-width: 899px) {
@@ -575,6 +575,9 @@ p.naer {
     height: auto !important;
     z-index: 0;
   }
+  
+  .fourth .row {
+   margin-bottom: 0px;
 }
 
 @media screen and (max-width: 500px) {
