@@ -424,6 +424,14 @@ p.naer {
   font-size: 18px;
 }
 
+.text2b {
+  width: 100%;
+  padding-bottom: 3%;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .text3 {
   width: 100%;
   font-size: 18px;
