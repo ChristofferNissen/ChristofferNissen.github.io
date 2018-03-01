@@ -317,7 +317,7 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-areas: 'workshop1 workshop2 workshop3' 'workshop1 workshop2 workshop3' 'workshop4 workshop2 workshop3' 'workshop4 workshop2 workshop6''workshop4 workshop5 workshop6' 'workshop4 workshop5 workshop6''workshop4 workshop5 workshop6' 'workshop7 workshop5 workshop6' 'workshop7 workshop8 workshop9' 'workshop7 workshop8 workshop9' 'workshop7 workshop8 workshop9';
+  grid-template-areas: 'workshop1 workshop2 workshop3' 'workshop4 workshop5 workshop6' 'workshop7 workshop8 workshop9';
   grid-gap: 20px;
   padding: 10px;
   font-size: 14px;
@@ -649,7 +649,14 @@ section#section7 {
    .grid-container {
     display: flex;
     flex-flow: column wrap;
+     padding:20px;
   }
+  
+  .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+  
   .fifth .textblock {
     margin: 10% 10%;
 }
@@ -703,7 +710,7 @@ section#section7 {
   .right .text {
     z-index: 100;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   section {
     overflow-x: hidden;
