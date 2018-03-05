@@ -120,7 +120,7 @@ p.linje5 {
 p.linje6 {
   font-weight: 900;
   font-size: 73px;
-  line-height: 68px;
+  /*line-height: 68px; */
   /* padding-right: 20%; */
 }
 
@@ -160,8 +160,7 @@ p.linje5 {
 p.linje6 {
   font-weight: 900;
   font-size: 54px;
-  line-height: 68px;
-  padding-bottom: 20%;
+
 }
 }
 
