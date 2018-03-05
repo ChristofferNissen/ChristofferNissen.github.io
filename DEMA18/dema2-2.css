@@ -318,14 +318,6 @@ a.mpiLogo {
   height: auto;
 }
 
-img.train {
-  position: absolute;
-  right: -83px;
-  bottom: 0;
-  width: 52% !important;
-  height: auto !important;
-  display: none;
-}
 
 .regIframeWrapper {
   width: 100%;
@@ -696,10 +688,6 @@ section.sixth {
   .third .col-lg-4 {
     width: 70% !important;
   }
-  .train {
-    top: 245px;
-    display: none;
-  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -736,14 +724,6 @@ section.sixth {
   body,
   html {
     overflow-x: hidden
-  }
-  img.train {
-    position: absolute;
-    top: 12%;
-    width: 97% !important;
-    height: auto !important;
-    z-index: 0;
-    display: none;
   }
   .third .col-lg-4 {
     z-index: 2;
@@ -799,11 +779,7 @@ section.sixth {
     margin-left: 8%;
     margin-right: 8%;
   }
-  .train {
-    width: 90% !important;
-    height: auto !important;
-    right: 0 !important;
-  }
+
   .third .right .text {
     width: 100%;
   }
