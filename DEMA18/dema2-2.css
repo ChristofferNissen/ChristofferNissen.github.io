@@ -864,7 +864,7 @@ section.sixth {
     bottom: 10vh;
   }
   .section {
-    min-height: 100vh;
+    min-height: 100%;
     height: auto;
     width: 100%;
     box-sizing: border-box;
