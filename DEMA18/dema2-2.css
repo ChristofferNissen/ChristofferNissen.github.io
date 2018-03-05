@@ -361,7 +361,7 @@ img.train {
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-flow: row wrap;
+  /*flex-flow: row wrap; */
   z-index: 20;
   height: 100vh;
   text-transform: uppercase;
@@ -579,7 +579,6 @@ p.naer {
     transform: translateY(-5px);
   }
 }
-
 
 /* END */
 
