@@ -364,6 +364,7 @@ img.train {
   /*flex-flow: row wrap; */
   z-index: 20;
   height: 100vh;
+  max-height: 100vh;
   text-transform: uppercase;
 }
 
