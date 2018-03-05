@@ -342,8 +342,8 @@ img.train {
 }
 
 .customHeader video {
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
   width: auto;
   height: auto;
   position: absolute;
