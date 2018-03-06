@@ -1,4 +1,30 @@
 /* FJERN PRIS BOKS - RESPONSOV formular */
+$header-and-footer-color: transparent; /* Virker kun i minimal template, ignoreret i basic */
+$sliderbox-bg-color: #0A4704;
+$slider-bg-color:white;
+$summary-bg-color: #ffffff ;
+$button-previous: #ffffff ;
+$button-next: #ffffff  ;
+$button-book: #ffffff ;
+$grunddata-confirmation-shadow-color: #0A4704;
+
+/* Tekst farver i kronologisk rækkefælge, efter flowet igennem registreringen */
+$Tekst-grunddata: white;
+$Tekst-description: black;
+$Tekst-slider: white;
+$Tekst-person: black;
+$Tekst-button: black;
+$Tekst-summary-headings: white;
+$Tekst-summary-person: black;
+$Tekst-Summary-Generel-field: Black;
+$Tekst-Field-actual-value: grey;
+
+/* Kanter på kasser */
+$Border-raius: 0px;
+
+/* Billedbaggrund til mobil enhed */
+$Mobile-background: url(https://carlsberggroup.com/media/2067/carlsberg-draught.jpg?width=1390&mode=max);
+
 #button-summary {
     display: none !important;
 }
