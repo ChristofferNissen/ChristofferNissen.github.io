@@ -169,7 +169,7 @@ a#confirmation, a#calendarEntry {
 
 .person{
     margin-bottom: 1em;
-    opacity: 0.85;
+    /* opacity: 0.85; */
     color:black;   /* Person-tekst */ 
     border-radius: 0px;
 }
@@ -181,7 +181,7 @@ a#confirmation, a#calendarEntry {
 
 .registration-step-description, #number-of-persons-slider-container, .activity, .activity-super-group, .accommodation {
     margin-bottom: 1em;
-    opacity: 0.85;
+    /* opacity: 0.85; */
     color:white;   /* Description-tekst */ 
 }
     
