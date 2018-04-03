@@ -7,11 +7,12 @@
     --header-and-footer-color: transparent; /* Virker kun i minimal template */
     --sliderbox-bg-color:#FFF;
     --slider-bg-color:#00587d;
-    --summary-bg-color: #FFF; 
+    
+    --summary-bg-color: #00587d; 
     --button-previous: #FFF;
     --button-next: #FFF ;
     --button-book: #FFF;
-    --grunddata-confirmation-shadow-color: #00587d;
+    --grunddata-confirmation-shadow-color: #FFF;
     
     /* Tekst farver i kronologisk rækkefælge, efter flowet igennem registreringen */
     --Tekst-grunddata: white;
@@ -19,8 +20,8 @@
     --Tekst-slider: #00587d;
     --Tekst-person: #00587d;
     --Tekst-button: #00587d;
-    --Tekst-summary-headings: #00587d;
-    --Tekst-summary-person: #00587d;
+    --Tekst-summary-headings: #FFF;
+    --Tekst-summary-person: #FFF;
     --Tekst-Summary-Generel-field: #00587d;
     --Tekst-Field-actual-value: black;
 
