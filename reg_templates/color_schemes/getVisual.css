@@ -16,7 +16,7 @@
     /* Tekst farver i kronologisk rækkefælge, efter flowet igennem registreringen */
     --Tekst-grunddata: white;
     --Tekst-description: black;
-    --Tekst-slider: white;
+    --Tekst-slider: #00587d;
     --Tekst-person: #00587d;
     --Tekst-button: #00587d;
     --Tekst-summary-headings: #00587d;
