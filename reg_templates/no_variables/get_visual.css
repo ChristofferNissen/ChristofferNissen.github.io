@@ -1,0 +1,216 @@
+@media screen and (max-width: 736px) {
+    #tv {
+        display:none;
+    }
+    
+    .ui-content {
+        /* Billedebaggrund */
+        background-image: var(--Mobile-background) !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 40%;
+    }
+}
+
+/* FJERN PRIS BOKS - RESPONSOV formular */
+#button-summary {
+    display: none !important;
+}
+
+body * {
+    text-shadow: none !important;
+}
+
+body {
+    color: #000000;
+}
+
+span {
+    text-shadow: none;
+}
+    
+.DivStepsH {
+    background: none; 
+    border-bottom: 0px;
+}
+    
+.DivStepText {
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.divInnerOn {
+    background-image: none;
+    border-radius: 0px;
+    border: 1px solid #FFF;
+    padding: 7px;
+}
+
+.divInnerOff {
+    background-image: none;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    padding: 7px;
+}
+
+.NrCompanionsMini, .DivBookerHeader  {
+    background-image: none;
+    border-radius: 0px;
+    border: 1px solid #FFF;
+}
+
+.InfoBoxVisible {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 0px;
+    padding: 7px;
+}
+
+.SuccessHeader {
+    font-size: 1.8em;
+    color: #FFF;
+    letter-spacing: -1px;
+    line-height: 75px;
+    height: 75px;
+}
+
+.SuccessMail {
+    color: #FFF;
+    margin-left: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+    background: #FFF /*{a-bar-background-color}*/;
+    border-color: #FFF/*{a-bar-border}*/;
+    color: var(--Tekst-slider) /* slider-tekst */;
+    border-radius: var(--Border-raius); /* Fjern afrundede hjørner */
+    font-weight: bold;
+}
+
+/* Sætter både farven for "Opsummering" og "Bekræft" knapperne */
+a#button-summary{
+    background: var(--button-summary);
+    border-color: var(--button-summary);
+    color:var(--Tekst-button); /* "knap-tekst" */
+    border-radius: var(--Border-raius);
+}
+
+#button-next{
+    background: #FFF;
+    border-color: #FFF;
+    color:var(--Tekst-button); /* "knap-tekst" */
+    border-radius: var(--Border-raius);
+}
+
+a#button-book{
+    background: #FFF;
+    border-color: #FFF;
+    color:var(--Tekst-button); /* "knap-tekst" */
+    border-radius: var(--Border-raius);
+}
+
+#button-previous {
+    background: #FFF;
+    border-color: #FFF;
+    color:var(--Tekst-button); /* "knap-tekst" */
+    border-radius: var(--Border-raius);
+}
+
+div#summary-panel, a#confirmation, a#calendarEntry {
+    background: #00587d;
+    border-color: #00587d;
+    color: var(--Tekst-summary-headings); /* "Summary-heading-tekst" */
+    text-shadow: none;
+}
+a#confirmation, a#calendarEntry {
+    background: white;
+    border-color: white;
+    color: black; /* "Summary-heading-tekst" */
+    text-shadow: none;
+}
+
+.ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn {
+    background: #00587d;
+    border-color: #00587d;
+    color:var(--Tekst-summary-person); /* Grunddata-summary tekst */
+    border-radius: var(--Border-raius);
+}
+
+.summary-general-information-value {
+    color:var(--Tekst-Field-actual-value); /* Summary-field-aktual-values-tekst */
+}
+
+.summary-general-information-name {
+    font-weight: bold;
+    color:var(--Tekst-Summary-Generel-field); /* Summary-field-general-tekst */
+}
+
+.ui-body-b, .ui-page-theme-b .ui-body-inherit, html .ui-bar-b .ui-body-inherit, html .ui-body-b .ui-body-inherit, html body .ui-group-theme-b .ui-body-inherit, html .ui-panel-page-container-b {
+    background: #034561 /*{b-body-background-color}*/;
+    border-color: #034561 /*{b-body-border}*/; 
+}
+ 
+.summary-general-information-contents.ui-corner-all {
+    background: #00587d;
+    color: #fff;
+    opacity: 0.9; /* Set to 0.9 to add a darker color to the dropdown box */ 
+    border-radius: 0px;
+}
+
+.ui-page-theme-a a:hover{
+ 	color: #00587d; /* Skal hover måske være en anden farve? */
+}
+
+.ui-icon-check:after, html .ui-btn.ui-checkbox-on.ui-checkbox-on:after{
+    background:black; /* Selection */
+}
+
+.person{
+    margin-bottom: 1em;
+    opacity: 0.85;
+    color:var(--Tekst-person);   /* Person-tekst */ 
+    border-radius: var(--Border-raius);
+}
+
+.ui-header-fixed, .ui-footer-fixed{
+    background: transparent !important;
+    border: transparent !important;
+}
+
+.registration-step-description, #number-of-persons-slider-container, .activity, .activity-super-group, .accommodation {
+    margin-bottom: 1em;
+    opacity: 0.85;
+    color:var(--Tekst-description);   /* Description-tekst */ 
+}
+    
+.img{
+    opacity: 0.5;
+}
+    
+.strong{
+    font-size: 30px !important;
+	color: white !important;
+}
+    
+.notsostrong{
+    font-size: 20px !important;
+	color: white !important;
+}
+    
+.registration-step-header{
+    color: var(--Tekst-grunddata)!important; /* Grunddata-tekst */
+    display: none; /* Fjerner grunddata overskrift */
+}
+
+.registration-step{
+    max-width: 800px;
+}
+
+.ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active, html .ui-body-a .ui-btn.ui-btn-active, html body .ui-group-theme-a .ui-btn.ui-btn-active, html head + body .ui-btn.ui-btn-a.ui-btn-active, .ui-page-theme-a .ui-checkbox-on:after, html .ui-bar-a .ui-checkbox-on:after, html .ui-body-a .ui-checkbox-on:after, html body .ui-group-theme-a .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-a:after, .ui-page-theme-a .ui-flipswitch-active, html .ui-bar-a .ui-flipswitch-active, html .ui-body-a .ui-flipswitch-active, html body .ui-group-theme-a .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, .ui-page-theme-a .ui-slider-track .ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-group-theme-a .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active {
+    background-color: #00587d /*{a-active-background-color}*/;
+    border-color: #00587d /*{a-active-border}*/;
+    color: #00587d /*{a-active-color}*/;
+    text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/#FFF/*{a-active-shadow-color}*/;
+}
