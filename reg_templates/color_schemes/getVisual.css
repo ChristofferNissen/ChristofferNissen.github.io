@@ -1,6 +1,6 @@
 /* Import template.css */
 /*@import url(https://cdn.rawgit.com/ChristofferNissen/ChristofferNissen.github.io/b348a90f/reg_templates/MinimalTemplate.css);*/
-@import url(https://ChristofferNissen.github.io/reg_templates/MinimalTemplate.css);
+@import url(https://ChristofferNissen.github.io/reg_templates/MinimalTemplate2.css);
 
 :root {
     /* Main layout farver, sliderbox-bg-color sætter også farven for bælken i bunden, og opsummerings-bjælken */
@@ -17,8 +17,8 @@
     /* Tekst farver i kronologisk rækkefælge, efter flowet igennem registreringen */
     --Tekst-grunddata: white;
     --Tekst-description: black;
-    --Tekst-slider: #00587d;
-    --Tekst-person: #00587d;
+    --Tekst-slider: black;
+    --Tekst-person: black;
     --Tekst-button: #00587d;
     --Tekst-summary-headings: #FFF;
     --Tekst-summary-person: #FFF;
