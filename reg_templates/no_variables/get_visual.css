@@ -5,7 +5,7 @@
     
     .ui-content {
         /* Billedebaggrund */
-        background-image: var(--Mobile-background) !important;
+        background-image: white !important;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 40%;
@@ -84,8 +84,8 @@ span {
 .ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
     background: #FFF /*{a-bar-background-color}*/;
     border-color: #FFF/*{a-bar-border}*/;
-    color: var(--Tekst-slider) /* slider-tekst */;
-    border-radius: var(--Border-raius); /* Fjern afrundede hjørner */
+    color: black /* slider-tekst */;
+    border-radius: 0px; /* Fjern afrundede hjørner */
     font-weight: bold;
 }
 
@@ -93,35 +93,35 @@ span {
 a#button-summary{
     background: var(--button-summary);
     border-color: var(--button-summary);
-    color:var(--Tekst-button); /* "knap-tekst" */
-    border-radius: var(--Border-raius);
+    color:#00587d; /* "knap-tekst" */
+    border-radius: 0px;
 }
 
 #button-next{
     background: #FFF;
     border-color: #FFF;
-    color:var(--Tekst-button); /* "knap-tekst" */
-    border-radius: var(--Border-raius);
+    color:#00587d; /* "knap-tekst" */
+    border-radius: 0px;
 }
 
 a#button-book{
     background: #FFF;
     border-color: #FFF;
-    color:var(--Tekst-button); /* "knap-tekst" */
-    border-radius: var(--Border-raius);
+    color:#00587d; /* "knap-tekst" */
+    border-radius: 0px;
 }
 
 #button-previous {
     background: #FFF;
     border-color: #FFF;
-    color:var(--Tekst-button); /* "knap-tekst" */
-    border-radius: var(--Border-raius);
+    color:#00587d; /* "knap-tekst" */
+    border-radius: 0px;
 }
 
 div#summary-panel, a#confirmation, a#calendarEntry {
     background: #00587d;
     border-color: #00587d;
-    color: var(--Tekst-summary-headings); /* "Summary-heading-tekst" */
+    color: #FFF; /* "Summary-heading-tekst" */
     text-shadow: none;
 }
 a#confirmation, a#calendarEntry {
@@ -134,17 +134,17 @@ a#confirmation, a#calendarEntry {
 .ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn {
     background: #00587d;
     border-color: #00587d;
-    color:var(--Tekst-summary-person); /* Grunddata-summary tekst */
-    border-radius: var(--Border-raius);
+    color:#FFF; /* Grunddata-summary tekst */
+    border-radius: 0px;
 }
 
 .summary-general-information-value {
-    color:var(--Tekst-Field-actual-value); /* Summary-field-aktual-values-tekst */
+    color:black; /* Summary-field-aktual-values-tekst */
 }
 
 .summary-general-information-name {
     font-weight: bold;
-    color:var(--Tekst-Summary-Generel-field); /* Summary-field-general-tekst */
+    color:#FFF; /* Summary-field-general-tekst */
 }
 
 .ui-body-b, .ui-page-theme-b .ui-body-inherit, html .ui-bar-b .ui-body-inherit, html .ui-body-b .ui-body-inherit, html body .ui-group-theme-b .ui-body-inherit, html .ui-panel-page-container-b {
@@ -170,8 +170,8 @@ a#confirmation, a#calendarEntry {
 .person{
     margin-bottom: 1em;
     opacity: 0.85;
-    color:var(--Tekst-person);   /* Person-tekst */ 
-    border-radius: var(--Border-raius);
+    color:black;   /* Person-tekst */ 
+    border-radius: 0px;
 }
 
 .ui-header-fixed, .ui-footer-fixed{
@@ -182,7 +182,7 @@ a#confirmation, a#calendarEntry {
 .registration-step-description, #number-of-persons-slider-container, .activity, .activity-super-group, .accommodation {
     margin-bottom: 1em;
     opacity: 0.85;
-    color:var(--Tekst-description);   /* Description-tekst */ 
+    color:white;   /* Description-tekst */ 
 }
     
 .img{
@@ -200,7 +200,7 @@ a#confirmation, a#calendarEntry {
 }
     
 .registration-step-header{
-    color: var(--Tekst-grunddata)!important; /* Grunddata-tekst */
+    color: white!important; /* Grunddata-tekst */
     display: none; /* Fjerner grunddata overskrift */
 }
 
