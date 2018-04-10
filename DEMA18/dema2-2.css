@@ -455,6 +455,7 @@ p.naer {
   font-size: 20px;
   color: #fff;
   font-weight: 500;
+  z-index: 1000;
 }
 
 .third2 .right {
