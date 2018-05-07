@@ -258,6 +258,10 @@ ul {
   width: 15%;
 }
 
+.jury .right {
+  width: 80%;
+}
+
 .right {
   float: left;
   width: 40%;
