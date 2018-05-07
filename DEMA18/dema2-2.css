@@ -221,7 +221,7 @@ ul {
   padding-bottom: 0px;
 }
 
-.section.fourth .container {
+.section.fourth .container, .section.jury .container {
   padding: 1% 15%;
   float: left;
   background: transparent !important;
