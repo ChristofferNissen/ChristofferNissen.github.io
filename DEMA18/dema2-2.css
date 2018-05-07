@@ -171,7 +171,7 @@ p.linje6 {
   padding: 25px;
 }
 
-.fourth .row {
+.fourth .row, .jury .row {
   margin-bottom: 30px;
 }
 
