@@ -938,3 +938,15 @@ section.sixth {
 .night .span-day {
   display: inline;
 }
+
+
+img.train {
+    position: absolute;
+    right: -83px;
+    bottom: 0;
+    width: 52% !important;
+    height: auto !important;
+}
+.train {
+    top: 245px;
+}
