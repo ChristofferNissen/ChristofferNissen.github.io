@@ -619,6 +619,17 @@ p.naer {
   background-size: cover;
 }
 
+.musik {
+  background: url(http://www.trippus.se/eventus/userfiles/98675.png) no-repeat center center;
+  background-size: cover;
+}
+
+.jury {
+  background: url(http://www.trippus.se/eventus/userfiles/98676.png) no-repeat center center;
+  background-size: cover;
+}
+
+
 .reg {
   background: url(http://www.trippus.se/eventus/userfiles/94166.png) no-repeat center center;
   background-size: cover;
@@ -627,6 +638,7 @@ p.naer {
 .sixth {
   background: linear-gradient(180deg, #84301a 0%, #c49c66 175%);
 }
+
 
 section.sixth {
   min-height: 30vh;
