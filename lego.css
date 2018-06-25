@@ -223,6 +223,9 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 .ui-input-text, .ui-body-inherit, .ui-corner-all, .ui-shadow-inset{
     border-width: 1px;
     border-color: black;
+    border-radius: 0;
+    background-color: #f7ef37 /*{a-active-background-color}*/;
+
 }
 
 .ui-controlgroup-controls a.ui-shadow:not(:focus), .ui-controlgroup-controls button.ui-shadow:not(:focus), .ui-controlgroup-controls div.ui-shadow:not(.ui-focus){
