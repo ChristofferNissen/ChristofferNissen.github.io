@@ -171,7 +171,7 @@ p.linje6 {
   padding: 25px;
 }
 
-.fourth .row {
+.fourth .row, .jury .row {
   margin-bottom: 30px;
 }
 
@@ -221,7 +221,7 @@ ul {
   padding-bottom: 0px;
 }
 
-.section.fourth .container {
+.section.fourth .container, .section.jury .container {
   padding: 1% 15%;
   float: left;
   background: transparent !important;
@@ -256,6 +256,10 @@ ul {
 .left {
   float: left;
   width: 15%;
+}
+
+.jury .right {
+  width: 80%;
 }
 
 .right {
