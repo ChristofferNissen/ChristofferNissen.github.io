@@ -121,6 +121,8 @@ span {
     color: var(--Tekst-slider) /* slider-tekst */;
     border-radius: var(--Border-raius); /* Fjern afrundede hjørner */
     font-weight: bold;
+    border-width:1px;
+    border-color:black;
 }
 
 /* Sætter både farven for "Opsummering" og "Bekræft" knapperne */
@@ -202,6 +204,9 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     border-radius: var(--Border-raius);
     background: #f7ef37;
     border-color: #f7ef37;
+
+    border-color: black;
+    border-width: 1px;
 }
 
 .ui-header-fixed, .ui-footer-fixed{
