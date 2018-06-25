@@ -171,12 +171,10 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     text-shadow: none;
 }
 
-/* .ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn {
-    background: var(--summary-bg-color);
-    border-color: var(--summary-bg-color);
-    color:var(--Tekst-summary-person); 
-    border-radius: var(--Border-raius);
-} */
+ .ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn {
+    background: #A50D0F;
+
+} 
 
 /*
 .summary-general-information-value {
@@ -189,8 +187,8 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
 
 .ui-body-b, .ui-page-theme-b .ui-body-inherit, html .ui-bar-b .ui-body-inherit, html .ui-body-b .ui-body-inherit, html body .ui-group-theme-b .ui-body-inherit, html .ui-panel-page-container-b {
-    background: var(--grunddata-confirmation-shadow-color) /*{b-body-background-color}*/;
-    border-color: var(--grunddata-confirmation-shadow-color) /*{b-body-border}*/; 
+    background: #D13E41 /*{b-body-background-color}*/;
+    border-color: #D13E41 /*{b-body-border}*/; 
 }
  
 .summary-general-information-contents.ui-corner-all {
