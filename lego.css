@@ -46,6 +46,10 @@
     }
 }
 
+.registration-step-description{
+    display:none;
+}
+
 /* FJERN PRIS BOKS - RESPONSOV formular */
 #button-summary {
     display: none !important;
