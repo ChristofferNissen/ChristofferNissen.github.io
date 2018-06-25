@@ -1,3 +1,26 @@
+:root {
+
+    
+    /* Tekst farver i kronologisk rækkefælge, efter flowet igennem registreringen */
+    --Tekst-grunddata: white;
+    --Tekst-description: black;
+    --Tekst-slider: white;
+    --Tekst-person: black;
+
+    --Tekst-button: white;
+    --Tekst-summary-headings: white;
+    --Tekst-summary-person: white;
+    --Tekst-Summary-Generel-field: white;
+    --Tekst-Field-actual-value: black;
+
+    /* Kanter på kasser */
+    --Border-raius: 0px;
+
+    /* Billedbaggrund til mobil enhed */
+    --Mobile-background: url(https://mfiles.alphacoders.com/490/490530.jpg);
+
+}
+
 @media screen and (max-width: 736px) {
     #tv {
         display:none;
@@ -97,8 +120,6 @@ span {
 
 /* Sætter både farven for "Opsummering" og "Bekræft" knapperne */
 a#button-summary{
-    background: var(--button-summary);
-    border-color: var(--button-summary);
     color:white; /* "knap-tekst" */
     border-radius: 0px;
 }
@@ -142,11 +163,6 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 
 } 
 
-/*
-.summary-general-information-value {
-    color:black;
-} */
-
 .summary-general-information-name {
     font-weight: bold;
     color:var(--Tekst-Summary-Generel-field); /* Summary-field-general-tekst */
@@ -158,10 +174,6 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
  
 .summary-general-information-contents.ui-corner-all {
-    /*background: #c2c2c2;
-    color: #fff;
-    opacity: 0.9; /* Set to 0.9 to add a darker color to the dropdown box */ 
-    
     border-radius: 0px;
 }
 
@@ -180,7 +192,6 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     border-radius: 0px;
     background: #f7ef37;
     border-color: #f7ef37;
-
     border-color: black;
     border-width: 1px;
 }
@@ -273,7 +284,6 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     padding-bottom: 10px;
 }
 }
-
 
 .ui-checkbox, .ui-radio {
     margin: 0 0;
