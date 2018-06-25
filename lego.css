@@ -281,7 +281,6 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 
 }
 
-
 .ui-field-contain > label + [class*="ui-"], .ui-field-contain .ui-controlgroup-controls {
     float: left;
     width: 78%;
@@ -317,4 +316,11 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 
 .registration-step, #footer .ui-grid-a, #footer .ui-grid, #header .ui-grid-d, .header-image{
     max-width: 800px !important;
+}
+
+.summary-activity:first-child, .summary-accommodation:first-child, .summary-general-information-contents {
+    margin: 0;
+    border-radius: 0px;
+    border: 1px solid black;
+    background: #d01012;
 }
