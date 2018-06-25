@@ -292,6 +292,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     border-width: 1px;
     border-color: black;
     border-radius: 0;
+    padding-bottom: 10px;
 }
 }
 
