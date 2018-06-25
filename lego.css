@@ -284,3 +284,8 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     border-width: 1px;
     border-color: black;
 }
+
+.ui-checkbox, .ui-radio {
+    margin: 0 0;
+    position: relative;
+}
