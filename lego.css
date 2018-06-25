@@ -265,6 +265,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 .ui-controlgroup-horizontal .ui-controlgroup-controls .ui-btn.ui-last-child {
     border-width: 1px;
     border-color: black;
+    border-radius: 0 !important;
 }
 
 .ui-input-text, .ui-body-inherit, .ui-corner-all, .ui-shadow-inset{
@@ -291,6 +292,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     box-sizing: border-box;
     border-width: 1px;
     border-color: black;
+    border-radius: 0;
 }
 
 .ui-checkbox, .ui-radio {
