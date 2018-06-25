@@ -297,3 +297,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     margin: 0 0;
     position: relative;
 }
+
+.registration-step, #footer .ui-grid-a, #footer .ui-grid, #header .ui-grid-d, .header-image{
+    max-width: 800px !important;
+}
