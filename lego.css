@@ -154,7 +154,7 @@ a#button-book{
 #button-previous {
     background: var(--button-previous);
     border-color: var(--button-previous);
-    color:var(--Tekst-button); /* "knap-tekst" */
+    color:black; /* "knap-tekst" */
     border-radius: var(--Border-raius);
 }
 
@@ -252,4 +252,19 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     border-color: var(--slider-bg-color) /*{a-active-border}*/;
     color: var(--slider-bg-color) /*{a-active-color}*/;
     text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/var(--sliderbox-bg-color)/*{a-active-shadow-color}*/;
+}
+
+.ui-controlgroup-horizontal .ui-controlgroup-controls .ui-btn.ui-last-child {
+    border-width: 1px;
+    border-color: black;
+}
+
+.ui-input-text, .ui-body-inherit, .ui-corner-all, .ui-shadow-inset{
+    border-width: 1px;
+    border-color: black;
+}
+
+.ui-controlgroup-controls a.ui-shadow:not(:focus), .ui-controlgroup-controls button.ui-shadow:not(:focus), .ui-controlgroup-controls div.ui-shadow:not(.ui-focus){
+    border-width: 1px;
+    border-color: black;
 }
