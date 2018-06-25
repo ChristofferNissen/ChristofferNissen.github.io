@@ -268,3 +268,8 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     border-width: 1px;
     border-color: black;
 }
+
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+    border-color:black !important;
+
+}
