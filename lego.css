@@ -245,7 +245,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
 
 .ui-body-a{
-    background-color: #f7ef37 /*{a-active-background-color}*/;
+    background-color: #d01012/*{a-active-background-color}*/;
 }
 
 .ui-controlgroup-controls a.ui-shadow:not(:focus), .ui-controlgroup-controls button.ui-shadow:not(:focus), .ui-controlgroup-controls div.ui-shadow:not(.ui-focus){
