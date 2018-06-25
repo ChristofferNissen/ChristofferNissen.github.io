@@ -1,4 +1,5 @@
 @media screen and (max-width: 736px) {
+    /* Stopper videobaggrund for good measure */
     #tv {
         display:none;
     }
@@ -10,8 +11,22 @@
         background-repeat: no-repeat;
         background-position: 40%;
     }
+
+    .ui-field-contain > label + [class*="ui-"], .ui-field-contain .ui-controlgroup-controls {
+        float: left;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        border-width: 1px;
+        border-color: black;
+        border-radius: 0;
+        padding-bottom: 10px;
+    }
 }
 
+/* Fjerner teksten over registrerings formularen */
 .registration-step-description{
     display:none;
 }
@@ -101,6 +116,7 @@ a#button-summary{
     border-radius: 0px;
 }
 
+/* Sætter farven på "Fortsæt"/"Opsummering" */
 #button-next{
     background:  #d01012;
     border-color:  #d01012;
@@ -132,12 +148,12 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     background: #d01012;
     border-color: #d01012;
     color: white; /* "Summary-heading-tekst" */
-    text-shadow: none;
+    /*text-shadow: none; */
+
 }
 
  .ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn {
     background: #A50D0F;
-
 } 
 
 .summary-general-information-name {
@@ -211,7 +227,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     background-color: #f7ef37 /*{a-active-background-color}*/;
     border-color: #f7ef37 /*{a-active-border}*/;
     color: #f7ef37 /*{a-active-color}*/;
-    text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/#d01012/*{a-active-shadow-color}*/;
+    text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/#d01012/*{a-active-shadow-color}*/; 
 }
 
 .ui-controlgroup-horizontal .ui-controlgroup-controls .ui-btn.ui-last-child {
@@ -224,8 +240,12 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     border-width: 1px;
     border-color: black;
     border-radius: 0;
-    background-color: #f7ef37 /*{a-active-background-color}*/;
+    
 
+}
+
+.ui-body-a{
+    background-color: #f7ef37 /*{a-active-background-color}*/;
 }
 
 .ui-controlgroup-controls a.ui-shadow:not(:focus), .ui-controlgroup-controls button.ui-shadow:not(:focus), .ui-controlgroup-controls div.ui-shadow:not(.ui-focus){
@@ -250,26 +270,12 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     border-radius: 0;
 }
 
-@media screen and (max-width: 736px) {
-.ui-field-contain > label + [class*="ui-"], .ui-field-contain .ui-controlgroup-controls {
-    float: left;
-    width: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    border-width: 1px;
-    border-color: black;
-    border-radius: 0;
-    padding-bottom: 10px;
-}
-}
-
 .ui-checkbox, .ui-radio {
     margin: 0 0;
     position: relative;
 }
 
+/* Bestemmer breden på knapperne i bunden*/
 .registration-step, #footer .ui-grid-a, #footer .ui-grid, #header .ui-grid-d, .header-image{
     max-width: 800px !important;
 }
