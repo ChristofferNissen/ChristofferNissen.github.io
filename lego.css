@@ -178,9 +178,10 @@ div#summary-panel, a#confirmation, a#calendarEntry {
     border-radius: var(--Border-raius);
 } */
 
+/*
 .summary-general-information-value {
-    color:var(--Tekst-Field-actual-value); /* Summary-field-aktual-values-tekst */
-}
+    color:var(--Tekst-Field-actual-value);
+} */
 
 .summary-general-information-name {
     font-weight: bold;
