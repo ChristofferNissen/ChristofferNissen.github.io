@@ -5,7 +5,7 @@
     
     .ui-content {
         /* Billedebaggrund */
-        background-image: https://mfiles.alphacoders.com/490/490530.jpg !important;
+        background-image: url(https://mfiles.alphacoders.com/490/490530.jpg) !important;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 40%;
