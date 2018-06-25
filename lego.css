@@ -165,7 +165,7 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 
 .summary-general-information-name {
     font-weight: bold;
-    color:var(--Tekst-Summary-Generel-field); /* Summary-field-general-tekst */
+    color:white; /* Summary-field-general-tekst */
 }
 
 .ui-body-b, .ui-page-theme-b .ui-body-inherit, html .ui-bar-b .ui-body-inherit, html .ui-body-b .ui-body-inherit, html body .ui-group-theme-b .ui-body-inherit, html .ui-panel-page-container-b {
