@@ -7,7 +7,7 @@
     --summary-bg-color:#c2c2c2 ;
     --button-previous: #f7ef37;
     --button-next: #d01012 ;
-    --button-book: #c2c2c2;
+    --button-book: #f7ef37;
     --grunddata-confirmation-shadow-color: #525252;
     
     /* Tekst farver i kronologisk rækkefælge, efter flowet igennem registreringen */
@@ -142,6 +142,8 @@ a#button-summary{
     border-color: var(--button-next);
     color:var(--Tekst-button); /* "knap-tekst" */
     border-radius: var(--Border-raius);
+    border-width: 1px;
+    border-color: black;
 }
 
 a#button-book{
@@ -149,6 +151,8 @@ a#button-book{
     border-color: var(--button-book);
     color:var(--Tekst-button); /* "knap-tekst" */
     border-radius: var(--Border-raius);
+    border-width: 1px;
+    border-color: black;
 }
 
 #button-previous {
@@ -156,6 +160,8 @@ a#button-book{
     border-color: var(--button-previous);
     color:black; /* "knap-tekst" */
     border-radius: var(--Border-raius);
+    border-width: 1px;
+    border-color: black;
 }
 
 div#summary-panel, a#confirmation, a#calendarEntry {
@@ -187,9 +193,10 @@ div#summary-panel, a#confirmation, a#calendarEntry {
 }
  
 .summary-general-information-contents.ui-corner-all {
-    background: var(--summary-bg-color);
+    /*background: var(--summary-bg-color);
     color: #fff;
     opacity: 0.9; /* Set to 0.9 to add a darker color to the dropdown box */ 
+    
     border-radius: 0px;
 }
 
