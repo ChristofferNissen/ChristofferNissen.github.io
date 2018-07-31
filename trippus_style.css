@@ -1,6 +1,3 @@
-#rMobile_ctl00_imgBadge {
-}
-
 .ui-page-theme-a .ui-btn.ui-btn-active,
 html .ui-bar-a .ui-btn.ui-btn-active,
 html .ui-body-a .ui-btn.ui-btn-active,
@@ -40,13 +37,13 @@ a {
 
 .ui-page-theme-a .ui-btn,
 .ui-btn-active {
-  background: #ee7365;
+  background: #f9b035;
   color: #fff;
   text-shadow: none;
-  border-color: #ee7365;
+  border-color: #f9b035;
 }
 
-</style> <style> iframe#tv {
+iframe#tv {
   left: 0px !important;
 }
 
@@ -161,8 +158,8 @@ position it in the middle of its parent wrapper*/
 }
 
 #button-summary {
-  background: #ee7365;
-  border: 1px solid #ee7365;
+  background: #f9b035;
+  border: 1px solid #f9b035;
   padding: 20px;
   color: #fff;
   text-shadow: none;
@@ -174,8 +171,8 @@ position it in the middle of its parent wrapper*/
 }
 
 a.ui-collapsible-heading-toggle.ui-btn.ui-icon-carat-d.ui-btn-icon-left.ui-btn-inherit {
-  background: #ee7365;
-  border: 1px solid #ee7365;
+  background: #f9b035;
+  border: 1px solid #f9b035;
   color: #fff;
   text-shadow: none;
 }
@@ -198,18 +195,18 @@ a.ui-collapsible-heading-toggle.ui-btn.ui-icon-carat-d.ui-btn-icon-left.ui-btn-i
 }
 
 #button-next {
-  background: #ee7365 !important;
+  background: #f9b035 !important;
   color: #fff !important;
   text-shadow: none !important;
-  border: #ee7365 !important;
+  border: #f9b035 !important;
   border-radius: 0px !important;
 }
 
 a#button-book {
-  background: #ee7365;
+  background: #f9b035;
   color: #fff;
   text-shadow: none;
-  border: #ee7365;
+  border: #f9b035;
   border-radius: 0px;
 }
 
@@ -331,10 +328,9 @@ div#footer {
   }
 }
 
-</style> <style>
 .ui-slider-track.ui-shadow-inset.ui-bar-inherit.ui-corner-all {
     border-color: #ee7365;
-}
+} /* border inside slider - to remain flat design */
 
 a#button-next {
   margin-right: 0px;
