@@ -1,0 +1,438 @@
+#rMobile_ctl00_imgBadge {
+}
+
+.ui-page-theme-a .ui-btn.ui-btn-active,
+html .ui-bar-a .ui-btn.ui-btn-active,
+html .ui-body-a .ui-btn.ui-btn-active,
+html body .ui-group-theme-a .ui-btn.ui-btn-active,
+html head + body .ui-btn.ui-btn-a.ui-btn-active,
+.ui-page-theme-a .ui-checkbox-on:after,
+html .ui-bar-a .ui-checkbox-on:after,
+html .ui-body-a .ui-checkbox-on:after,
+html body .ui-group-theme-a .ui-checkbox-on:after,
+.ui-btn.ui-checkbox-on.ui-btn-a:after,
+.ui-page-theme-a .ui-flipswitch-active,
+html .ui-bar-a .ui-flipswitch-active,
+html .ui-body-a .ui-flipswitch-active,
+html body .ui-group-theme-a .ui-flipswitch-active,
+html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active,
+.ui-page-theme-a .ui-slider-track .ui-btn-active,
+html .ui-bar-a .ui-slider-track .ui-btn-active,
+html .ui-body-a .ui-slider-track .ui-btn-active,
+html body .ui-group-theme-a .ui-slider-track .ui-btn-active,
+html body div.ui-slider-track.ui-body-a .ui-btn-active {
+  background-color: #f9b035 !important;
+  border-color: #f9b035 !important;
+  color: #fff;
+  text-shadow: none !important;
+}
+
+.ui-body-a, label span.required, legend span.required {
+    color: #000 !important;
+  text-shadow: none !important;
+}
+
+body *,
+p,
+a {
+  font-family: 'Montserrat', 'Helvetica', arial, sans-serif !important;
+}
+
+.ui-page-theme-a .ui-btn,
+.ui-btn-active {
+  background: #ee7365;
+  color: #fff;
+  text-shadow: none;
+  border-color: #ee7365;
+}
+
+</style> <style> iframe#tv {
+  left: 0px !important;
+}
+
+.iframe-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+
+/* Make the iframe keep an aspect ratio, and
+position it in the middle of its parent wrapper*/
+
+.iframe-wrapper iframe {
+  width: 140vw;
+  height: 56.25vw;
+  /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+  min-height: 140vh;
+  min-width: 177.77vh;
+  /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.MainE2Div {
+  z-index: 3;
+  position: relative;
+}
+
+#registration-step-Information {
+  z-index: 4;
+  position: relative;
+}
+
+</style> <style> .tack {
+  color: #fff;
+  text-align: center;
+  text-shadow: none;
+}
+
+#confirmation {
+  display: none;
+}
+
+#button-summary {
+  display: none;
+}
+
+.registration-step-header {
+  display: none;
+}
+
+.ui-page-theme-a .ui-bar-inherit {
+  background: transparent;
+  border-color: transparent;
+}
+
+.cover {
+  z-index: 2
+}
+
+.ui-content {
+  position: relative;
+  z-index: 5
+}
+
+#mainForm {
+  position: relative;
+  z-index: 5
+}
+
+.person.ui-body.ui-body-a.ui-corner-all {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 0px;
+}
+
+.ui-mobile label {
+  margin-bottom: 10px !important;
+}
+
+.person .ui-select,
+.person .ui-checkbox,
+.ui-select {
+  width: 100% !important;
+}
+
+.agreement-link,
+.person .ui-checkbox {
+  margin-left: 0px !important;
+}
+
+</style> <style> .registration-step-header {
+  color: #fff;
+  text-shadow: none;
+}
+
+#header {
+  background: none;
+  border: none;
+}
+
+.ui-corner-all {
+  border-radius: 0px !important;
+}
+
+#button-summary {
+  background: #ee7365;
+  border: 1px solid #ee7365;
+  padding: 20px;
+  color: #fff;
+  text-shadow: none;
+}
+
+.activity-super-group-header {
+  text-shadow: none;
+  color: #fff;
+}
+
+a.ui-collapsible-heading-toggle.ui-btn.ui-icon-carat-d.ui-btn-icon-left.ui-btn-inherit {
+  background: #ee7365;
+  border: 1px solid #ee7365;
+  color: #fff;
+  text-shadow: none;
+}
+
+.registration-step {
+  max-width: 1000px;
+}
+
+.ui-bar.ui-bar-a {
+  background: #ee7365;
+  color: #fff !important;
+  text-shadow: none;
+  border-radius: 0px;
+  border: 0px solid;
+}
+
+.ui-slider-track .ui-btn-active {
+  background-color: #a9dbff !important;
+  border-color: #a9dbff !important;
+}
+
+#button-next {
+  background: #ee7365 !important;
+  color: #fff !important;
+  text-shadow: none !important;
+  border: #ee7365 !important;
+  border-radius: 0px !important;
+}
+
+a#button-book {
+  background: #ee7365;
+  color: #fff;
+  text-shadow: none;
+  border: #ee7365;
+  border-radius: 0px;
+}
+
+</style> <style> .headertext {
+  width: 100% !important;
+}
+
+.ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset {
+  width: 100%;
+}
+
+.ui-field-contain > label {
+  width: 100%;
+}
+
+.ui-mobile label {
+  margin-bottom: 10px !important;
+}
+
+.person .ui-select,
+.person .ui-checkbox,
+.ui-select {
+  width: 100% !important;
+}
+
+.agreement-link,
+.person .ui-checkbox {
+  margin-left: 0px !important;
+}
+
+.error {
+  margin-left: 0% !important;
+}
+
+#replay {
+  background: rgba(255, 255, 255, 0.2);
+  border: 0;
+  border-radius: 3px;
+  bottom: 100px;
+  color: #fff;
+  left: 50%;
+  outline: 0;
+  padding: 10px 30px;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+#replay:active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.ui-page-theme-a,
+.ui-page-theme-a .ui-panel-wrapper {
+  color: #fff/*{a-page-color}*/
+  ;
+  text-shadow: none;
+}
+
+
+/* registrering telefonanpassad */
+
+.ui-input-text,
+.ui-field-contain > label {
+  width: 100% !important;
+  margin-bottom: 10px !important;
+}
+
+.ui-field-contain,
+.ui-checkbox {
+  margin: 0 !important;
+}
+
+.person .ui-select {
+  width: 100% !important;
+  float: none !important;
+  display: inline-block !important;
+}
+
+.mobilenumber {
+  width: 100% !important;
+  float: none !important;
+}
+
+.ui-controlgroup.mobilenumber .ui-controlgroup-controls .ui-select {
+  width: 30% !important;
+  float: left !important;
+}
+
+.mobilenumber .ui-input-text {
+  width: auto !important;
+}
+
+.accommodation-date-picker-container .ui-responsive .ui-input-text {
+  width: 90% !important;
+}
+
+.registration-step {
+  max-width: 800px;
+}
+
+div#footer {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
+
+.arla_logo {
+    width: 150px;
+    height: auto;
+    padding: 30px 0px 0px 30px;
+    position: relative;
+}
+
+@media only screen and (max-width: 960px) {
+  
+  .header-image img {
+    padding: 20px 0px !important;
+    width: 60% !important;
+    min-width: 60% !important;
+  }
+}
+
+</style> <style>
+.ui-slider-track.ui-shadow-inset.ui-bar-inherit.ui-corner-all {
+    border-color: #ee7365;
+}
+
+a#button-next {
+  margin-right: 0px;
+}
+
+a#button-previous {
+  margin-left: 0px;
+}
+
+.ui-field-contain {
+  border: 0px;
+}
+
+.registration-step-description p {
+  margin-bottom: 0px;
+}
+
+.registration-step-description {
+  background: rgba(255, 255, 255, .9);
+  padding: 1em;
+  color: #000;
+  margin-top: 2em;
+}
+
+.person,
+.registration-step-description,
+#number-of-persons-slider-container,
+.activity,
+.activity-super-group,
+.accommodation {
+  margin-bottom: 0em;
+}
+
+.controlgroup-textinput.mobilenumber {
+    float: none !important;
+    padding: 0em;
+    border-top-right-radius: 0em !important;
+    border-bottom-right-radius: 0em !important;
+}
+
+.ui-input-text.ui-body-inherit.ui-corner-all.controlgroup-textinput.mobilenumber.ui-btn.ui-shadow-inset.ui-last-child {
+  background: #ffffff;
+}
+.ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head + body .ui-btn.ui-btn-a:hover {
+  color:#000;
+}
+
+
+div#geninf14mobileCountryCode-0-button, div#geninf4-0-button, div#geninf14mobileCountryCode-1-button, div#geninf4-1-button, div#geninf14mobileCountryCode-2-button, div#geninf4-2-button, div#geninf14mobileCountryCode-3-button, div#geninf4-3-button, div#geninf14mobileCountryCode-4-button, div#geninf4-4-button, div#geninf14mobileCountryCode-5-button, div#geninf4-5-button {
+    padding-top: 0.5em;
+    padding-bottom: 0.45em;
+      color: #000 !important;
+    text-shadow: none !important;
+}
+
+<!----label[for="geninf158374-0"],
+label[for="geninf158377-0"],
+label[for="geninf158381-0"],
+label[for="geninf158380-0"],
+label[for="geninf158379-0"] {
+  font-size: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 2px solid #ee7365;
+}
+
+
+
+--> @media only screen and (max-width: 830px) {
+  div#footer {
+    margin: 1.3em;
+  }
+  a#button-next {
+    margin-right: 1.3em;
+  }
+  a#button-previous {
+    margin-left: 1em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ui-mobile-viewport {
+    background-image: url(http://www.trippus.se/eventus/userfiles/101983.jpg) !important;
+    background-position: top center;
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  .iframe-wrapper,
+  .tv {
+    display: none;
+  }
+}
+
+.header-image img {
+  max-width: 60%;
+}
+
+h3.person-header {
+  display: none;
+}
