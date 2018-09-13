@@ -1,5 +1,17 @@
+/*
+udskift disse farver:
+
+#000000 --> tekst
+#ffffff
+#940005 --> inde i slider
+#ffffff
+#e11b22 --> Slider bar + knapper
+
+
+*/
+
 .ui-slider-track.ui-shadow-inset.ui-bar-inherit.ui-corner-all {
-    border-color: #86a36e;
+    border-color: #e11b22;
 }
 
 a#button-next {
@@ -19,10 +31,7 @@ a#button-previous {
 }
 
 .registration-step-description {
-  background: rgba(255, 255, 255, .9);
   padding: 1em;
-  color: #004719;
-  margin-top: 2em;
 }
 
 .person,
@@ -37,6 +46,7 @@ a#button-previous {
 .controlgroup-textinput.mobilenumber {
     float: none !important;
     padding: 0em;
+    padding: 0em;
     border-top-right-radius: 0em !important;
     border-bottom-right-radius: 0em !important;
 }
@@ -45,21 +55,17 @@ a#button-previous {
   background: #ffffff;
 }
 .ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head + body .ui-btn.ui-btn-a:hover {
-  color:#004719;
+  color:#000000;
 }
 
 
 div#geninf14mobileCountryCode-0-button, div#geninf4-0-button, div#geninf14mobileCountryCode-1-button, div#geninf4-1-button, div#geninf14mobileCountryCode-2-button, div#geninf4-2-button, div#geninf14mobileCountryCode-3-button, div#geninf4-3-button, div#geninf14mobileCountryCode-4-button, div#geninf4-4-button, div#geninf14mobileCountryCode-5-button, div#geninf4-5-button {
     padding-top: 0.5em;
     padding-bottom: 0.45em;
-      color: #004719 !important;
     text-shadow: none !important;
 }
 
-
-
-
---> @media only screen and (max-width: 830px) {
+ @media only screen and (max-width: 830px) {
   div#footer {
     margin: 1.3em;
   }
@@ -72,7 +78,7 @@ div#geninf14mobileCountryCode-0-button, div#geninf4-0-button, div#geninf14mobile
 }
 
 .header-image img {
-  max-width: 60%;
+  max-width: 80%;
 }
 
 
@@ -102,91 +108,28 @@ html .ui-bar-a .ui-slider-track .ui-btn-active,
 html .ui-body-a .ui-slider-track .ui-btn-active,
 html body .ui-group-theme-a .ui-slider-track .ui-btn-active,
 html body div.ui-slider-track.ui-body-a .ui-btn-active {
-  background-color: #b8c781 !important;
-  border-color: #b8c781 !important;
-  color: #fffefc;
+  background-color: #940005 !important;
+  border-color: #940005 !important;
+  color: #ffffff;
   text-shadow: none !important;
 }
 
-.ui-body-a, label span.required, legend span.required {
-    color: #004719 !important;
-  text-shadow: none !important;
-}
-
-body *,
-p,
-a {
-  font-family: 'arla', 'Helvetica', arial, sans-serif !important;
-}
 
 .ui-page-theme-a .ui-btn,
 .ui-btn-active {
-  background: #87A36F;
-  color: #fffefc;
+  background: #e11b22;
+  color: #ffffff;
   text-shadow: none;
-  border-color: #87A36F;
-}
-
-</style> <style> iframe#tv {
-  left: 0px !important;
-}
-
-.iframe-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  pointer-events: none;
-  overflow: hidden;
+  border-color: #e11b22;
 }
 
 
-/* Make the iframe keep an aspect ratio, and
-position it in the middle of its parent wrapper*/
-
-.iframe-wrapper iframe {
-  width: 140vw;
-  height: 56.25vw;
-  /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
-  min-height: 140vh;
-  min-width: 177.77vh;
-  /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
-  position: absolute;
-  top: 41%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-}
-
-.MainE2Div {
-  z-index: 3;
-  position: relative;
-}
-
-#registration-step-Information {
-  z-index: 4;
-  position: relative;
-}
-
-</style> <style> .tack {
-  color: #fffefc;
+.tack {
+  color: #ffffff;
   text-align: center;
   text-shadow: none;
 }
 
-#confirmation {
-  display: none;
-}
-
-#button-summary {
-  display: none;
-}
-
-.registration-step-header {
-  display: none;
-}
 
 .ui-page-theme-a .ui-bar-inherit {
   background: transparent;
@@ -228,7 +171,7 @@ position it in the middle of its parent wrapper*/
 }
 
 </style> <style> .registration-step-header {
-  color: #fffefc;
+  color: #ffffff;
   text-shadow: none;
 }
 
@@ -242,22 +185,22 @@ position it in the middle of its parent wrapper*/
 }
 
 #button-summary {
-  background: #87A36F;
-  border: 1px solid #87A36F;
+  background: #e11b22;
+  border: 1px solid #e11b22;
   padding: 20px;
-  color: #fffefc;
+  color: #ffffff;
   text-shadow: none;
 }
 
 .activity-super-group-header {
   text-shadow: none;
-  color: #fffefc;
+  color: #ffffff;
 }
 
 a.ui-collapsible-heading-toggle.ui-btn.ui-icon-carat-d.ui-btn-icon-left.ui-btn-inherit {
-  background: #87A36F;
-  border: 1px solid #87A36F;
-  color: #fffefc;
+  background: #e11b22;
+  border: 1px solid #e11b22;
+  color: #ffffff;
   text-shadow: none;
 }
 
@@ -266,31 +209,26 @@ a.ui-collapsible-heading-toggle.ui-btn.ui-icon-carat-d.ui-btn-icon-left.ui-btn-i
 }
 
 .ui-bar.ui-bar-a {
-  background: #87A36F;
-  color: #fffefc !important;
+  background: #e11b22;
+  color: #ffffff !important;
   text-shadow: none;
   border-radius: 0px;
   border: 0px solid;
 }
 
-.ui-slider-track .ui-btn-active {
-  background-color: #a9dbff !important;
-  border-color: #a9dbff !important;
-}
-
 #button-next {
-  background: #87A36F !important;
-  color: #fffefc !important;
+  background: #e11b22 !important;
+  color: #ffffff !important;
   text-shadow: none !important;
-  border: #87A36F !important;
+  border: #e11b22 !important;
   border-radius: 0px !important;
 }
 
 a#button-book {
-  background: #87A36F;
-  color: #fffefc;
+  background: #e11b22;
+  color: #ffffff;
   text-shadow: none;
-  border: #87A36F;
+  border: #e11b22;
   border-radius: 0px;
 }
 
@@ -321,30 +259,9 @@ a#button-book {
   margin-left: 0px !important;
 }
 
-.error {
-  margin-left: 0% !important;
-}
-
-#replay {
-  background: rgba(255, 255, 255, 0.2);
-  border: 0;
-  border-radius: 3px;
-  bottom: 100px;
-  color: #fffefc;
-  left: 50%;
-  outline: 0;
-  padding: 10px 30px;
-  position: absolute;
-  transform: translateX(-50%);
-}
-
-#replay:active {
-  background: rgba(255, 255, 255, 0.1);
-}
-
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
-  color: #fffefc/*{a-page-color}*/
+  color: #ffffff/*{a-page-color}*/
   ;
   text-shadow: none;
 }
