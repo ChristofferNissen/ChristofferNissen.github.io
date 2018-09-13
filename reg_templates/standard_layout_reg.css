@@ -10,6 +10,10 @@ udskift disse farver:
 
 */
 
+* {
+    text-shadow:none;
+}
+
 .ui-slider-track.ui-shadow-inset.ui-bar-inherit.ui-corner-all {
     border-color: #e11b22;
 }
@@ -187,9 +191,8 @@ html body div.ui-slider-track.ui-body-a .ui-btn-active {
 #button-summary {
   background: #e11b22;
   border: 1px solid #e11b22;
-  padding: 20px;
+  padding: 1em;
   color: #ffffff;
-  text-shadow: none;
 }
 
 .activity-super-group-header {
@@ -232,7 +235,7 @@ a#button-book {
   border-radius: 0px;
 }
 
-</style> <style> .headertext {
+.headertext {
   width: 100% !important;
 }
 
