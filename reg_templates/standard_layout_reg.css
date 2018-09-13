@@ -86,7 +86,8 @@ div#geninf14mobileCountryCode-0-button, div#geninf4-0-button, div#geninf14mobile
 }
 
 .header-image img {
-  max-width: 80%;
+    max-width: 800px;
+    width: 100%;
 }
 
 
