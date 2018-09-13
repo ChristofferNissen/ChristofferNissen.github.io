@@ -15,87 +15,21 @@ udskift disse farver:
     text-shadow:none;
 }
 
-/* SLIDER */
-
-.ui-slider-track.ui-shadow-inset.ui-bar-inherit.ui-corner-all {
-    border-color: #e11b22;
+.ui-corner-all {
+  border-radius: 0px !important;
 }
 
-/* KNAPPER */
-
-a#button-next {
-  margin-right: 0px;
-}
-
-a#button-previous {
-  margin-left: 0px;
-}
-
-.ui-field-contain {
-  border: 0px;
-}
-
-.registration-step-description p {
-  margin-bottom: 0px;
-}
-
-.registration-step-description {
-  padding-bottom: 1em;
-}
-
-.person,
-.registration-step-description,
-#number-of-persons-slider-container,
-.activity,
-.activity-super-group,
-.accommodation {
-  margin-bottom: 0em;
-}
-
-.controlgroup-textinput.mobilenumber {
-    float: none !important;
-    padding: 0em;
-    padding: 0em;
-    border-top-right-radius: 0em !important;
-    border-bottom-right-radius: 0em !important;
-}
-
-.ui-input-text.ui-body-inherit.ui-corner-all.controlgroup-textinput.mobilenumber.ui-btn.ui-shadow-inset.ui-last-child {
-  background: #ffffff;
-}
-.ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head + body .ui-btn.ui-btn-a:hover {
-  color:#000000;
-}
-
-
-div#geninf14mobileCountryCode-0-button, div#geninf4-0-button, div#geninf14mobileCountryCode-1-button, div#geninf4-1-button, div#geninf14mobileCountryCode-2-button, div#geninf4-2-button, div#geninf14mobileCountryCode-3-button, div#geninf4-3-button, div#geninf14mobileCountryCode-4-button, div#geninf4-4-button, div#geninf14mobileCountryCode-5-button, div#geninf4-5-button {
-    padding-top: 0.5em;
-    padding-bottom: 0.45em;
-    text-shadow: none !important;
-}
-
- @media only screen and (max-width: 830px) {
-  div#footer {
-    margin: 1.3em;
-  }
-  a#button-next {
-    margin-right: 1.3em;
-  }
-  a#button-previous {
-    margin-left: 1em;
-  }
-}
+/* HEADER IMAGE */ 
 
 .header-image img {
     max-width: 800px;
     width: 100%;
 }
 
+/* SLIDER */
 
-/* LAYOUT 2 */
-
-#rMobile_ctl00_imgBadge {
-  margin: 0 auto !important;
+.ui-slider-track.ui-shadow-inset.ui-bar-inherit.ui-corner-all {
+    border-color: #e11b22;
 }
 
 .ui-page-theme-a .ui-btn.ui-btn-active,
@@ -124,6 +58,32 @@ html body div.ui-slider-track.ui-body-a .ui-btn-active {
   text-shadow: none !important;
 }
 
+.ui-bar.ui-bar-a {
+  background: #e11b22;
+  color: #ffffff !important;
+  text-shadow: none;
+  border-radius: 0px;
+  border: 0px solid;
+}
+
+/* KNAPPER */
+
+a#button-next {
+  margin-right: 0px;
+}
+
+a#button-previous {
+  margin-left: 0px;
+}
+
+ @media only screen and (max-width: 830px) {
+  a#button-next {
+    margin-right: 1.3em;
+  }
+  a#button-previous {
+    margin-left: 1em;
+  }
+}
 
 .ui-page-theme-a .ui-btn,
 .ui-btn-active {
@@ -133,64 +93,9 @@ html body div.ui-slider-track.ui-body-a .ui-btn-active {
   border-color: #e11b22;
 }
 
-
-.tack {
-  color: #ffffff;
-  text-align: center;
-  text-shadow: none;
-}
-
-
 .ui-page-theme-a .ui-bar-inherit {
   background: transparent;
   border-color: transparent;
-}
-
-.cover {
-  z-index: 2
-}
-
-.ui-content {
-  position: relative;
-  z-index: 5
-}
-
-#mainForm {
-  position: relative;
-  z-index: 5
-}
-
-.person.ui-body.ui-body-a.ui-corner-all {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-.ui-mobile label {
-  margin-bottom: 10px !important;
-}
-
-.person .ui-select,
-.person .ui-checkbox,
-.ui-select {
-  width: 100% !important;
-}
-
-.agreement-link,
-.person .ui-checkbox {
-  margin-left: 0px !important;
-}
-
-</style> <style> .registration-step-header {
-  color: #ffffff;
-  text-shadow: none;
-}
-
-#header {
-  background: none;
-  border: none;
-}
-
-.ui-corner-all {
-  border-radius: 0px !important;
 }
 
 #button-summary {
@@ -200,28 +105,11 @@ html body div.ui-slider-track.ui-body-a .ui-btn-active {
   color: #ffffff;
 }
 
-.activity-super-group-header {
-  text-shadow: none;
-  color: #ffffff;
-}
-
 a.ui-collapsible-heading-toggle.ui-btn.ui-icon-carat-d.ui-btn-icon-left.ui-btn-inherit {
   background: #e11b22;
   border: 1px solid #e11b22;
   color: #ffffff;
   text-shadow: none;
-}
-
-.registration-step {
-  max-width: 1000px;
-}
-
-.ui-bar.ui-bar-a {
-  background: #e11b22;
-  color: #ffffff !important;
-  text-shadow: none;
-  border-radius: 0px;
-  border: 0px solid;
 }
 
 #button-next {
@@ -240,17 +128,34 @@ a#button-book {
   border-radius: 0px;
 }
 
-.headertext {
-  width: 100% !important;
+/* REGISTRERING */
+
+.person.ui-body.ui-body-a.ui-corner-all {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
-.ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset {
-  width: 100%;
+/** MOBILFELT **/
+
+.controlgroup-textinput.mobilenumber {
+    float: none !important;
+    padding: 0em;
+    padding: 0em;
+    border-top-right-radius: 0em !important;
+    border-bottom-right-radius: 0em !important;
 }
 
-.ui-field-contain > label {
-  width: 100%;
+.ui-input-text.ui-body-inherit.ui-corner-all.controlgroup-textinput.mobilenumber.ui-btn.ui-shadow-inset.ui-last-child {
+  background: #ffffff;
 }
+
+div#geninf14mobileCountryCode-0-button, div#geninf4-0-button, div#geninf14mobileCountryCode-1-button, div#geninf4-1-button, div#geninf14mobileCountryCode-2-button, div#geninf4-2-button, div#geninf14mobileCountryCode-3-button, div#geninf4-3-button, div#geninf14mobileCountryCode-4-button, div#geninf4-4-button, div#geninf14mobileCountryCode-5-button, div#geninf4-5-button {
+    padding-top: 0.5em;
+    padding-bottom: 0.45em;
+    text-shadow: none !important;
+}
+
+
+/** ANDRE FELTER **/
 
 .ui-mobile label {
   margin-bottom: 10px !important;
@@ -267,7 +172,6 @@ a#button-book {
   margin-left: 0px !important;
 }
 
-/* registrering telefonanpassad */
 
 .ui-input-text,
 .ui-field-contain > label {
@@ -300,16 +204,23 @@ a#button-book {
   width: auto !important;
 }
 
-.accommodation-date-picker-container .ui-responsive .ui-input-text {
-  width: 90% !important;
-}
-
 .registration-step {
   max-width: 800px;
 }
 
-div#footer {
-  max-width: 800px !important;
-  margin: 0 auto !important;
+
+/* ACCOMODATION PAGE */
+
+.accommodation-date-picker-container .ui-responsive .ui-input-text {
+  width: 90% !important;
 }
 
+
+/* CONFIRMATION PAGE */
+
+
+.tack {
+  color: #ffffff;
+  text-align: center;
+  text-shadow: none;
+}
