@@ -1,0 +1,80 @@
+ <style>
+.ui-slider-track.ui-shadow-inset.ui-bar-inherit.ui-corner-all {
+    border-color: #86a36e;
+}
+
+a#button-next {
+  margin-right: 0px;
+}
+
+a#button-previous {
+  margin-left: 0px;
+}
+
+.ui-field-contain {
+  border: 0px;
+}
+
+.registration-step-description p {
+  margin-bottom: 0px;
+}
+
+.registration-step-description {
+  background: rgba(255, 255, 255, .9);
+  padding: 1em;
+  color: #004719;
+  margin-top: 2em;
+}
+
+.person,
+.registration-step-description,
+#number-of-persons-slider-container,
+.activity,
+.activity-super-group,
+.accommodation {
+  margin-bottom: 0em;
+}
+
+.controlgroup-textinput.mobilenumber {
+    float: none !important;
+    padding: 0em;
+    border-top-right-radius: 0em !important;
+    border-bottom-right-radius: 0em !important;
+}
+
+.ui-input-text.ui-body-inherit.ui-corner-all.controlgroup-textinput.mobilenumber.ui-btn.ui-shadow-inset.ui-last-child {
+  background: #ffffff;
+}
+.ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head + body .ui-btn.ui-btn-a:hover {
+  color:#004719;
+}
+
+
+div#geninf14mobileCountryCode-0-button, div#geninf4-0-button, div#geninf14mobileCountryCode-1-button, div#geninf4-1-button, div#geninf14mobileCountryCode-2-button, div#geninf4-2-button, div#geninf14mobileCountryCode-3-button, div#geninf4-3-button, div#geninf14mobileCountryCode-4-button, div#geninf4-4-button, div#geninf14mobileCountryCode-5-button, div#geninf4-5-button {
+    padding-top: 0.5em;
+    padding-bottom: 0.45em;
+      color: #004719 !important;
+    text-shadow: none !important;
+}
+
+
+
+
+--> @media only screen and (max-width: 830px) {
+  div#footer {
+    margin: 1.3em;
+  }
+  a#button-next {
+    margin-right: 1.3em;
+  }
+  a#button-previous {
+    margin-left: 1em;
+  }
+}
+
+.header-image img {
+  max-width: 60%;
+}
+
+
+</style> 
