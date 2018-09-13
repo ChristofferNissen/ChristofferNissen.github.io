@@ -34,6 +34,10 @@ a#button-previous {
   margin-bottom: 0px;
 }
 
+h2.registration-step-header {
+    padding-left: .5em;
+}
+
 .registration-step-description {
   padding: 1em;
 }
