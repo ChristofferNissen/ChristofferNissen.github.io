@@ -10,13 +10,18 @@ udskift disse farver:
 
 */
 
+/* Generelle regler */ 
 * {
     text-shadow:none;
 }
 
+/* SLIDER */
+
 .ui-slider-track.ui-shadow-inset.ui-bar-inherit.ui-corner-all {
     border-color: #e11b22;
 }
+
+/* KNAPPER */
 
 a#button-next {
   margin-right: 0px;
@@ -34,12 +39,8 @@ a#button-previous {
   margin-bottom: 0px;
 }
 
-h2.registration-step-header {
-    padding-left: .5em;
-}
-
 .registration-step-description {
-  padding: 1em;
+  padding-bottom: 1em;
 }
 
 .person,
