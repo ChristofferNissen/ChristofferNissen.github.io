@@ -2,8 +2,8 @@
 udskift disse farver:
 
 #000000 --> tekst
-#ffffff
 #940005 --> inde i slider
+#ffffff
 #e11b22 --> Slider bar + knapper
 
 
@@ -17,6 +17,7 @@ udskift disse farver:
 .ui-corner-all {
   border-radius: 0px !important;
 }
+
 
 /* HEADER IMAGE */ 
 
@@ -127,6 +128,10 @@ a#button-book {
   border-radius: 0px;
 }
 
+div#footer {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
 /* REGISTRERING */
 
 .person.ui-body.ui-body-a.ui-corner-all {
